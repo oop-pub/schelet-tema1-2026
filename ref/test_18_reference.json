@@ -7068,7 +7068,7 @@
   "message" : "Quantity -0.01 is below the minimum allowed value 0; interval skipped."
 }, {
   "command" : "get",
-  "timestamp" : "2026-01-02T09:59",
+  "timestamp" : "2026-01-02T10:00",
   "status" : "WARNING",
   "from" : "2026-01-02T09:45",
   "to" : "2026-01-02T10:00",

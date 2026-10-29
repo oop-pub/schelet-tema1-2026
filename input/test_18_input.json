@@ -9313,7 +9313,7 @@
     },
     {
       "command": "get",
-      "timestamp": "2026-01-02T09:59",
+      "timestamp": "2026-01-02T10:00",
       "parameters": {
         "clientTier": "FREE",
         "dataType": "DAM_PRICE",
