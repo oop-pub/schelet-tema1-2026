@@ -70,7 +70,7 @@ public final class TestRunner {
                 "test" + testNumber,
                 "input/test_" + testNumber + "_input.json",
                 "output/test_" + testNumber + "_output.json",
-                "ref/test_" + testNumber + "_output.json",
+                "ref/test_" + testNumber + "_reference.json",
                 TEST_POINTS[index - 1]
         );
     }
@@ -82,7 +82,6 @@ public final class TestRunner {
                     final int points) throws IOException {
         try {
             Main.action(inputPath, outputPath);
-
             JsonNode outputJson = MAPPER.readTree(new File(outputPath));
             JsonNode referenceJson = MAPPER.readTree(new File(refPath));
 
