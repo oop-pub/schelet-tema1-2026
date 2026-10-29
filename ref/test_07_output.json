@@ -1,0 +1,984 @@
+[ {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:00",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:00",
+  "to" : "2025-10-15T01:00",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "quantity" : 6020.0
+    }, {
+      "interval" : "00:45 - 01:00",
+      "intervalIndex" : 4,
+      "quantity" : 6080.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:00",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:00",
+  "to" : "2025-10-15T01:00",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "quantity" : 6118.0
+    }, {
+      "interval" : "00:45 - 01:00",
+      "intervalIndex" : 4,
+      "quantity" : 6172.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:00",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:00",
+  "to" : "2025-10-15T01:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "priceAmount" : 101.5
+    }, {
+      "interval" : "00:45 - 01:00",
+      "intervalIndex" : 4,
+      "priceAmount" : 106.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:00",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:00",
+  "to" : "2025-10-15T01:00",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "predictedPriceEurMwh" : 103.3,
+      "spikeProbability" : 0.18
+    }, {
+      "interval" : "00:45 - 01:00",
+      "intervalIndex" : 4,
+      "predictedPriceEurMwh" : 107.2,
+      "spikeProbability" : 0.42
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T01:00",
+  "to" : "2025-10-15T01:15",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "01:00 - 01:15",
+      "intervalIndex" : 5,
+      "quantity" : 6100.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T01:00",
+  "to" : "2025-10-15T01:15",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "01:00 - 01:15",
+      "intervalIndex" : 5,
+      "quantity" : 6190.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T01:00",
+  "to" : "2025-10-15T01:15",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "01:00 - 01:15",
+      "intervalIndex" : 5,
+      "priceAmount" : 107.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T01:00",
+  "to" : "2025-10-15T01:15",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "01:00 - 01:15",
+      "intervalIndex" : 5,
+      "predictedPriceEurMwh" : 108.5,
+      "spikeProbability" : 0.5
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2025-10-15T01:30",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE",
+  "date" : "2025-10-15",
+  "interval" : "01:15 - 01:30",
+  "intervalIndex" : 6,
+  "message" : "PriceAmount is null; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:30",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T01:15",
+  "to" : "2025-10-15T01:30",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "quantity" : 0.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:30",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T01:15",
+  "to" : "2025-10-15T01:30",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "quantity" : 0.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:30",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T01:15",
+  "to" : "2025-10-15T01:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "predictedPriceEurMwh" : -500.0,
+      "spikeProbability" : 0.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:30",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:30",
+  "to" : "2025-10-15T01:30",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:45 - 01:00",
+      "intervalIndex" : 4,
+      "quantity" : 6080.0
+    }, {
+      "interval" : "01:00 - 01:15",
+      "intervalIndex" : 5,
+      "quantity" : 6100.0
+    }, {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "quantity" : 0.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:30",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:30",
+  "to" : "2025-10-15T01:30",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:45 - 01:00",
+      "intervalIndex" : 4,
+      "quantity" : 6172.0
+    }, {
+      "interval" : "01:00 - 01:15",
+      "intervalIndex" : 5,
+      "quantity" : 6190.0
+    }, {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "quantity" : 0.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:30",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:30",
+  "to" : "2025-10-15T01:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:45 - 01:00",
+      "intervalIndex" : 4,
+      "priceAmount" : 106.0
+    }, {
+      "interval" : "01:00 - 01:15",
+      "intervalIndex" : 5,
+      "priceAmount" : 107.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:30",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:30",
+  "to" : "2025-10-15T01:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:45 - 01:00",
+      "intervalIndex" : 4,
+      "predictedPriceEurMwh" : 107.2,
+      "spikeProbability" : 0.42
+    }, {
+      "interval" : "01:00 - 01:15",
+      "intervalIndex" : 5,
+      "predictedPriceEurMwh" : 108.5,
+      "spikeProbability" : 0.5
+    }, {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "predictedPriceEurMwh" : -500.0,
+      "spikeProbability" : 0.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:00",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T01:00",
+  "to" : "2025-10-15T02:00",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "01:00 - 01:15",
+      "intervalIndex" : 5,
+      "quantity" : 6100.0
+    }, {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "quantity" : 0.0
+    }, {
+      "interval" : "01:30 - 01:45",
+      "intervalIndex" : 7,
+      "quantity" : 6140.0
+    }, {
+      "interval" : "01:45 - 02:00",
+      "intervalIndex" : 8,
+      "quantity" : 6160.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:00",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T01:00",
+  "to" : "2025-10-15T02:00",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "01:00 - 01:15",
+      "intervalIndex" : 5,
+      "quantity" : 6190.0
+    }, {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "quantity" : 0.0
+    }, {
+      "interval" : "01:30 - 01:45",
+      "intervalIndex" : 7,
+      "quantity" : 6226.0
+    }, {
+      "interval" : "01:45 - 02:00",
+      "intervalIndex" : 8,
+      "quantity" : 6244.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:00",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T01:00",
+  "to" : "2025-10-15T02:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "01:00 - 01:15",
+      "intervalIndex" : 5,
+      "priceAmount" : 107.5
+    }, {
+      "interval" : "01:30 - 01:45",
+      "intervalIndex" : 7,
+      "priceAmount" : -500.0
+    }, {
+      "interval" : "01:45 - 02:00",
+      "intervalIndex" : 8,
+      "priceAmount" : 112.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:00",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T01:00",
+  "to" : "2025-10-15T02:00",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "01:00 - 01:15",
+      "intervalIndex" : 5,
+      "predictedPriceEurMwh" : 108.5,
+      "spikeProbability" : 0.5
+    }, {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "predictedPriceEurMwh" : -500.0,
+      "spikeProbability" : 0.0
+    }, {
+      "interval" : "01:30 - 01:45",
+      "intervalIndex" : 7,
+      "predictedPriceEurMwh" : 111.1,
+      "spikeProbability" : 0.18
+    }, {
+      "interval" : "01:45 - 02:00",
+      "intervalIndex" : 8,
+      "predictedPriceEurMwh" : 112.4,
+      "spikeProbability" : 0.26
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2025-10-15T02:30",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE_PREDICTION",
+  "date" : "2025-10-15",
+  "interval" : "02:15 - 02:30",
+  "intervalIndex" : 10,
+  "message" : "SpikeProbability 1.7 is outside the valid range [0.0, 1.0]; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:30",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T01:30",
+  "to" : "2025-10-15T02:30",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "01:30 - 01:45",
+      "intervalIndex" : 7,
+      "quantity" : 6140.0
+    }, {
+      "interval" : "01:45 - 02:00",
+      "intervalIndex" : 8,
+      "quantity" : 6160.0
+    }, {
+      "interval" : "02:15 - 02:30",
+      "intervalIndex" : 10,
+      "quantity" : 6200.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:30",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T01:30",
+  "to" : "2025-10-15T02:30",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "01:30 - 01:45",
+      "intervalIndex" : 7,
+      "quantity" : 6226.0
+    }, {
+      "interval" : "01:45 - 02:00",
+      "intervalIndex" : 8,
+      "quantity" : 6244.0
+    }, {
+      "interval" : "02:15 - 02:30",
+      "intervalIndex" : 10,
+      "quantity" : 6280.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:30",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T01:30",
+  "to" : "2025-10-15T02:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "01:30 - 01:45",
+      "intervalIndex" : 7,
+      "priceAmount" : -500.0
+    }, {
+      "interval" : "01:45 - 02:00",
+      "intervalIndex" : 8,
+      "priceAmount" : 112.0
+    }, {
+      "interval" : "02:15 - 02:30",
+      "intervalIndex" : 10,
+      "priceAmount" : 115.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:30",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T01:30",
+  "to" : "2025-10-15T02:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "01:30 - 01:45",
+      "intervalIndex" : 7,
+      "predictedPriceEurMwh" : 111.1,
+      "spikeProbability" : 0.18
+    }, {
+      "interval" : "01:45 - 02:00",
+      "intervalIndex" : 8,
+      "predictedPriceEurMwh" : 112.4,
+      "spikeProbability" : 0.26
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2025-10-15T03:30",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD_PREDICTION",
+  "date" : "2025-10-15",
+  "interval" : "03:15 - 03:30",
+  "intervalIndex" : 14,
+  "message" : "Quantity is null; interval skipped."
+}, {
+  "command" : "import",
+  "timestamp" : "2025-10-15T03:30",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE",
+  "date" : "2025-10-15",
+  "interval" : "03:15 - 03:30",
+  "intervalIndex" : 14,
+  "message" : "PriceAmount 4750.0 is outside the market range [-500, 4000] EUR/MWh; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T03:30",
+  "status" : "WARNING",
+  "from" : "2025-10-15T03:15",
+  "to" : "2025-10-15T03:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T03:30",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T02:30",
+  "to" : "2025-10-15T03:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "predictedPriceEurMwh" : 120.2,
+      "spikeProbability" : 0.26
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2025-10-15T03:45",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE_PREDICTION",
+  "date" : "2025-10-15",
+  "interval" : "03:30 - 03:45",
+  "intervalIndex" : 15,
+  "message" : "PredictedPriceEurMwh is null; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T03:45",
+  "status" : "WARNING",
+  "from" : "2025-10-15T03:30",
+  "to" : "2025-10-15T03:45",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "import",
+  "timestamp" : "2025-10-15T04:00",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE",
+  "date" : "2025-10-15",
+  "interval" : "03:45 - 04:00",
+  "intervalIndex" : 16,
+  "message" : "PriceAmount -500.01 is outside the market range [-500, 4000] EUR/MWh; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T04:00",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T03:00",
+  "to" : "2025-10-15T04:00",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "quantity" : 6280.0
+    }, {
+      "interval" : "03:30 - 03:45",
+      "intervalIndex" : 15,
+      "quantity" : 6300.0
+    }, {
+      "interval" : "03:45 - 04:00",
+      "intervalIndex" : 16,
+      "quantity" : 6320.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T04:00",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T03:00",
+  "to" : "2025-10-15T04:00",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "03:30 - 03:45",
+      "intervalIndex" : 15,
+      "quantity" : 6370.0
+    }, {
+      "interval" : "03:45 - 04:00",
+      "intervalIndex" : 16,
+      "quantity" : 6388.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T04:00",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T03:00",
+  "to" : "2025-10-15T04:00",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "predictedPriceEurMwh" : 120.2,
+      "spikeProbability" : 0.26
+    }, {
+      "interval" : "03:45 - 04:00",
+      "intervalIndex" : 16,
+      "predictedPriceEurMwh" : 122.8,
+      "spikeProbability" : 0.42
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2025-10-15T04:30",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD_PREDICTION",
+  "date" : "2025-10-15",
+  "interval" : "04:15 - 04:30",
+  "intervalIndex" : 18,
+  "message" : "Quantity -380.0 is below the minimum allowed value 0; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T04:30",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T03:30",
+  "to" : "2025-10-15T04:30",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "03:30 - 03:45",
+      "intervalIndex" : 15,
+      "quantity" : 6300.0
+    }, {
+      "interval" : "03:45 - 04:00",
+      "intervalIndex" : 16,
+      "quantity" : 6320.0
+    }, {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "quantity" : 6360.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T04:30",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T03:30",
+  "to" : "2025-10-15T04:30",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "03:30 - 03:45",
+      "intervalIndex" : 15,
+      "quantity" : 6370.0
+    }, {
+      "interval" : "03:45 - 04:00",
+      "intervalIndex" : 16,
+      "quantity" : 6388.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T04:30",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T03:30",
+  "to" : "2025-10-15T04:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "03:30 - 03:45",
+      "intervalIndex" : 15,
+      "priceAmount" : 122.5
+    }, {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "priceAmount" : 127.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T04:30",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T03:30",
+  "to" : "2025-10-15T04:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "03:45 - 04:00",
+      "intervalIndex" : 16,
+      "predictedPriceEurMwh" : 122.8,
+      "spikeProbability" : 0.42
+    }, {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "predictedPriceEurMwh" : 125.4,
+      "spikeProbability" : 0.1
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T05:00",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T04:00",
+  "to" : "2025-10-15T05:00",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "predictedPriceEurMwh" : 125.4,
+      "spikeProbability" : 0.1
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2025-10-15T05:30",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD_PREDICTION",
+  "date" : "2025-10-15",
+  "interval" : "05:15 - 05:30",
+  "intervalIndex" : 22,
+  "message" : "ReservesRequiredMW 0.0 is not positive; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T05:30",
+  "status" : "WARNING",
+  "from" : "2025-10-15T05:15",
+  "to" : "2025-10-15T05:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T05:30",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T04:30",
+  "to" : "2025-10-15T05:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "predictedPriceEurMwh" : 130.6,
+      "spikeProbability" : 0.42
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T05:45",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T05:30",
+  "to" : "2025-10-15T05:45",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "05:30 - 05:45",
+      "intervalIndex" : 23,
+      "predictedPriceEurMwh" : 4000.0,
+      "spikeProbability" : 1.0
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2025-10-15T06:00",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD_PREDICTION",
+  "date" : "2025-10-15",
+  "interval" : "05:45 - 06:00",
+  "intervalIndex" : 24,
+  "message" : "Quantity -0.01 is below the minimum allowed value 0; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T06:00",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T05:00",
+  "to" : "2025-10-15T06:00",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "quantity" : 6440.0
+    }, {
+      "interval" : "05:30 - 05:45",
+      "intervalIndex" : 23,
+      "quantity" : 6460.0
+    }, {
+      "interval" : "05:45 - 06:00",
+      "intervalIndex" : 24,
+      "quantity" : 6480.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T06:00",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T05:00",
+  "to" : "2025-10-15T06:00",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "05:30 - 05:45",
+      "intervalIndex" : 23,
+      "quantity" : 6514.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T06:00",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T05:00",
+  "to" : "2025-10-15T06:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "priceAmount" : 133.0
+    }, {
+      "interval" : "05:30 - 05:45",
+      "intervalIndex" : 23,
+      "priceAmount" : 134.5
+    }, {
+      "interval" : "05:45 - 06:00",
+      "intervalIndex" : 24,
+      "priceAmount" : 4000.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T06:00",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T05:00",
+  "to" : "2025-10-15T06:00",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "predictedPriceEurMwh" : 130.6,
+      "spikeProbability" : 0.42
+    }, {
+      "interval" : "05:30 - 05:45",
+      "intervalIndex" : 23,
+      "predictedPriceEurMwh" : 4000.0,
+      "spikeProbability" : 1.0
+    }, {
+      "interval" : "05:45 - 06:00",
+      "intervalIndex" : 24,
+      "predictedPriceEurMwh" : 133.2,
+      "spikeProbability" : 0.1
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T06:30",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T05:30",
+  "to" : "2025-10-15T06:30",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "05:30 - 05:45",
+      "intervalIndex" : 23,
+      "quantity" : 6460.0
+    }, {
+      "interval" : "05:45 - 06:00",
+      "intervalIndex" : 24,
+      "quantity" : 6480.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T06:30",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T05:30",
+  "to" : "2025-10-15T06:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "05:30 - 05:45",
+      "intervalIndex" : 23,
+      "priceAmount" : 134.5
+    }, {
+      "interval" : "05:45 - 06:00",
+      "intervalIndex" : 24,
+      "priceAmount" : 4000.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T06:30",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T05:30",
+  "to" : "2025-10-15T06:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "05:30 - 05:45",
+      "intervalIndex" : 23,
+      "predictedPriceEurMwh" : 4000.0,
+      "spikeProbability" : 1.0
+    }, {
+      "interval" : "05:45 - 06:00",
+      "intervalIndex" : 24,
+      "predictedPriceEurMwh" : 133.2,
+      "spikeProbability" : 0.1
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2025-10-15T08:00",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD_PREDICTION",
+  "date" : "2025-10-15",
+  "interval" : "07:45 - 08:00",
+  "intervalIndex" : 32,
+  "message" : "ReservesRequiredMW 0.0 is not positive; interval skipped."
+}, {
+  "command" : "import",
+  "timestamp" : "2025-10-15T08:00",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE",
+  "date" : "2025-10-15",
+  "interval" : "07:45 - 08:00",
+  "intervalIndex" : 32,
+  "message" : "PriceAmount is null; interval skipped."
+}, {
+  "command" : "import",
+  "timestamp" : "2025-10-15T08:00",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE_PREDICTION",
+  "date" : "2025-10-15",
+  "interval" : "07:45 - 08:00",
+  "intervalIndex" : 32,
+  "message" : "SpikeProbability 1.0001 is outside the valid range [0.0, 1.0]; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T08:00",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T07:45",
+  "to" : "2025-10-15T08:00",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "07:45 - 08:00",
+      "intervalIndex" : 32,
+      "quantity" : 6000.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T08:30",
+  "status" : "ERROR",
+  "from" : "2025-10-15T08:15",
+  "to" : "2025-10-15T08:30",
+  "message" : "Access denied: DAM_PRICE_PREDICTION requires PREMIUM subscription."
+} ]

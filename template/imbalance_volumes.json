@@ -1,0 +1,489 @@
+{
+  "biddingZoneDomain": "10YRO-TEL------P",
+  "periodStart": "yyyy-MM-ddTHH:mm",
+  "periodEnd": "yyyy-MM-ddTHH:mm",
+  "resolution": "PT15M",
+  "priceMeasureUnit": "MWH",
+  "points": [
+    {
+      "intervalIndex": 1,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 2,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 3,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 4,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 5,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 6,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 7,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 8,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 9,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 10,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 11,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 12,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 13,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 14,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 15,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 16,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 17,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 18,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 19,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 20,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 21,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 22,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 23,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 24,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 25,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 26,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 27,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 28,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 29,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 30,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 31,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 32,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 33,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 34,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 35,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 36,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 37,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 38,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 39,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 40,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 41,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 42,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 43,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 44,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 45,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 46,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 47,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 48,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 49,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 50,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 51,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 52,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 53,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 54,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 55,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 56,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 57,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 58,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 59,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 60,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 61,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 62,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 63,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 64,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 65,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 66,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 67,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 68,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 69,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 70,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 71,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 72,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 73,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 74,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 75,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 76,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 77,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 78,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 79,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 80,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 81,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 82,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 83,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 84,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 85,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 86,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 87,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 88,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 89,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 90,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 91,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 92,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 93,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 94,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 95,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    },
+    {
+      "intervalIndex": 96,
+      "positiveImbalanceVol": null,
+      "negativeImbalanceVol": null
+    }
+  ]
+}

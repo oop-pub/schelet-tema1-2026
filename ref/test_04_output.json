@@ -1,0 +1,421 @@
+[ {
+  "command" : "get",
+  "timestamp" : "2026-09-12T03:30",
+  "status" : "SUCCESS",
+  "from" : "2026-09-12T03:15",
+  "to" : "2026-09-12T03:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-09-12",
+    "data" : [ {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "predictedPriceEurMwh" : 4000.0,
+      "spikeProbability" : 0.62
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2026-09-12T04:00",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE_PREDICTION",
+  "date" : "2026-09-12",
+  "interval" : "03:45 - 04:00",
+  "intervalIndex" : 16,
+  "message" : "PredictedPriceEurMwh -1200.0 is outside the market range [-500, 4000] EUR/MWh; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-09-12T04:00",
+  "status" : "WARNING",
+  "from" : "2026-09-12T03:45",
+  "to" : "2026-09-12T04:00",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-09-12T04:15",
+  "status" : "SUCCESS",
+  "from" : "2026-09-12T04:00",
+  "to" : "2026-09-12T04:15",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-09-12",
+    "data" : [ {
+      "interval" : "04:00 - 04:15",
+      "intervalIndex" : 17,
+      "predictedPriceEurMwh" : 230.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-09-12T04:30",
+  "status" : "SUCCESS",
+  "from" : "2026-09-12T04:15",
+  "to" : "2026-09-12T04:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-09-12",
+    "data" : [ {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "predictedPriceEurMwh" : 230.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-09-12T04:45",
+  "status" : "SUCCESS",
+  "from" : "2026-09-12T04:30",
+  "to" : "2026-09-12T04:45",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-09-12",
+    "data" : [ {
+      "interval" : "04:30 - 04:45",
+      "intervalIndex" : 19,
+      "predictedPriceEurMwh" : 230.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2026-09-12T05:30",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE_PREDICTION",
+  "date" : "2026-09-12",
+  "interval" : "05:00 - 05:15",
+  "intervalIndex" : 21,
+  "message" : "PredictedPriceEurMwh 7000.0 is outside the market range [-500, 4000] EUR/MWh; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-09-12T05:30",
+  "status" : "WARNING",
+  "from" : "2026-09-12T05:00",
+  "to" : "2026-09-12T05:15",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-09-12T05:30",
+  "status" : "WARNING",
+  "from" : "2026-09-12T05:00",
+  "to" : "2026-09-12T05:15",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-09-12T05:30",
+  "status" : "SUCCESS",
+  "from" : "2026-09-12T04:45",
+  "to" : "2026-09-12T05:00",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-09-12",
+    "data" : [ {
+      "interval" : "04:45 - 05:00",
+      "intervalIndex" : 20,
+      "predictedPriceEurMwh" : 256.84,
+      "spikeProbability" : 0.62
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-09-12T05:30",
+  "status" : "SUCCESS",
+  "from" : "2026-09-12T04:45",
+  "to" : "2026-09-12T05:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-09-12",
+    "data" : [ {
+      "interval" : "04:45 - 05:00",
+      "intervalIndex" : 20,
+      "predictedPriceEurMwh" : 256.84,
+      "spikeProbability" : 0.62
+    }, {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "predictedPriceEurMwh" : 259.1,
+      "spikeProbability" : 0.61
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-09-12T05:30",
+  "status" : "WARNING",
+  "from" : "2026-09-12T05:00",
+  "to" : "2026-09-12T05:15",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-09-12T05:45",
+  "status" : "SUCCESS",
+  "from" : "2026-09-12T05:30",
+  "to" : "2026-09-12T05:45",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-09-12",
+    "data" : [ {
+      "interval" : "05:30 - 05:45",
+      "intervalIndex" : 23,
+      "predictedPriceEurMwh" : 259.1,
+      "spikeProbability" : 0.61
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-09-12T06:00",
+  "status" : "SUCCESS",
+  "from" : "2026-09-12T04:00",
+  "to" : "2026-09-12T06:00",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-09-12",
+    "data" : [ {
+      "interval" : "04:00 - 04:15",
+      "intervalIndex" : 17,
+      "predictedPriceEurMwh" : 230.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "predictedPriceEurMwh" : 230.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "04:30 - 04:45",
+      "intervalIndex" : 19,
+      "predictedPriceEurMwh" : 230.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "04:45 - 05:00",
+      "intervalIndex" : 20,
+      "predictedPriceEurMwh" : 256.84,
+      "spikeProbability" : 0.62
+    }, {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "predictedPriceEurMwh" : 259.1,
+      "spikeProbability" : 0.61
+    }, {
+      "interval" : "05:30 - 05:45",
+      "intervalIndex" : 23,
+      "predictedPriceEurMwh" : 259.1,
+      "spikeProbability" : 0.61
+    }, {
+      "interval" : "05:45 - 06:00",
+      "intervalIndex" : 24,
+      "predictedPriceEurMwh" : 259.1,
+      "spikeProbability" : 0.61
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2026-09-12T06:30",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE_PREDICTION",
+  "date" : "2026-09-12",
+  "interval" : "06:15 - 06:30",
+  "intervalIndex" : 26,
+  "message" : "SpikeProbability -0.25 is outside the valid range [0.0, 1.0]; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-09-12T06:30",
+  "status" : "WARNING",
+  "from" : "2026-09-12T06:15",
+  "to" : "2026-09-12T06:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-09-12T07:15",
+  "status" : "SUCCESS",
+  "from" : "2026-09-12T05:15",
+  "to" : "2026-09-12T07:15",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-09-12",
+    "data" : [ {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "predictedPriceEurMwh" : 259.1,
+      "spikeProbability" : 0.61
+    }, {
+      "interval" : "05:30 - 05:45",
+      "intervalIndex" : 23,
+      "predictedPriceEurMwh" : 259.1,
+      "spikeProbability" : 0.61
+    }, {
+      "interval" : "05:45 - 06:00",
+      "intervalIndex" : 24,
+      "predictedPriceEurMwh" : 259.1,
+      "spikeProbability" : 0.61
+    }, {
+      "interval" : "06:00 - 06:15",
+      "intervalIndex" : 25,
+      "predictedPriceEurMwh" : 260.47,
+      "spikeProbability" : 0.82
+    }, {
+      "interval" : "06:30 - 06:45",
+      "intervalIndex" : 27,
+      "predictedPriceEurMwh" : 260.47,
+      "spikeProbability" : 0.82
+    }, {
+      "interval" : "06:45 - 07:00",
+      "intervalIndex" : 28,
+      "predictedPriceEurMwh" : 260.47,
+      "spikeProbability" : 0.82
+    }, {
+      "interval" : "07:00 - 07:15",
+      "intervalIndex" : 29,
+      "predictedPriceEurMwh" : 258.59,
+      "spikeProbability" : 0.94
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2026-09-12T07:45",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE_PREDICTION",
+  "date" : "2026-09-12",
+  "interval" : "07:30 - 07:45",
+  "intervalIndex" : 31,
+  "message" : "SpikeProbability 1.75 is outside the valid range [0.0, 1.0]; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-09-12T07:45",
+  "status" : "WARNING",
+  "from" : "2026-09-12T07:30",
+  "to" : "2026-09-12T07:45",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-09-12T08:00",
+  "status" : "SUCCESS",
+  "from" : "2026-09-12T06:15",
+  "to" : "2026-09-12T08:00",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-09-12",
+    "data" : [ {
+      "interval" : "06:30 - 06:45",
+      "intervalIndex" : 27,
+      "predictedPriceEurMwh" : 260.47,
+      "spikeProbability" : 0.82
+    }, {
+      "interval" : "06:45 - 07:00",
+      "intervalIndex" : 28,
+      "predictedPriceEurMwh" : 260.47,
+      "spikeProbability" : 0.82
+    }, {
+      "interval" : "07:00 - 07:15",
+      "intervalIndex" : 29,
+      "predictedPriceEurMwh" : 258.59,
+      "spikeProbability" : 0.94
+    }, {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "predictedPriceEurMwh" : 258.59,
+      "spikeProbability" : 0.94
+    }, {
+      "interval" : "07:45 - 08:00",
+      "intervalIndex" : 32,
+      "predictedPriceEurMwh" : 258.59,
+      "spikeProbability" : 0.94
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-09-12T08:00",
+  "status" : "SUCCESS",
+  "from" : "2026-09-12T03:00",
+  "to" : "2026-09-12T08:00",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-09-12",
+    "data" : [ {
+      "interval" : "03:00 - 03:15",
+      "intervalIndex" : 13,
+      "predictedPriceEurMwh" : -500.0,
+      "spikeProbability" : 0.62
+    }, {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "predictedPriceEurMwh" : 4000.0,
+      "spikeProbability" : 0.62
+    }, {
+      "interval" : "03:30 - 03:45",
+      "intervalIndex" : 15,
+      "predictedPriceEurMwh" : 256.37,
+      "spikeProbability" : 0.0
+    }, {
+      "interval" : "04:00 - 04:15",
+      "intervalIndex" : 17,
+      "predictedPriceEurMwh" : 230.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "predictedPriceEurMwh" : 230.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "04:30 - 04:45",
+      "intervalIndex" : 19,
+      "predictedPriceEurMwh" : 230.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "04:45 - 05:00",
+      "intervalIndex" : 20,
+      "predictedPriceEurMwh" : 256.84,
+      "spikeProbability" : 0.62
+    }, {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "predictedPriceEurMwh" : 259.1,
+      "spikeProbability" : 0.61
+    }, {
+      "interval" : "05:30 - 05:45",
+      "intervalIndex" : 23,
+      "predictedPriceEurMwh" : 259.1,
+      "spikeProbability" : 0.61
+    }, {
+      "interval" : "05:45 - 06:00",
+      "intervalIndex" : 24,
+      "predictedPriceEurMwh" : 259.1,
+      "spikeProbability" : 0.61
+    }, {
+      "interval" : "06:00 - 06:15",
+      "intervalIndex" : 25,
+      "predictedPriceEurMwh" : 260.47,
+      "spikeProbability" : 0.82
+    }, {
+      "interval" : "06:30 - 06:45",
+      "intervalIndex" : 27,
+      "predictedPriceEurMwh" : 260.47,
+      "spikeProbability" : 0.82
+    }, {
+      "interval" : "06:45 - 07:00",
+      "intervalIndex" : 28,
+      "predictedPriceEurMwh" : 260.47,
+      "spikeProbability" : 0.82
+    }, {
+      "interval" : "07:00 - 07:15",
+      "intervalIndex" : 29,
+      "predictedPriceEurMwh" : 258.59,
+      "spikeProbability" : 0.94
+    }, {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "predictedPriceEurMwh" : 258.59,
+      "spikeProbability" : 0.94
+    }, {
+      "interval" : "07:45 - 08:00",
+      "intervalIndex" : 32,
+      "predictedPriceEurMwh" : 258.59,
+      "spikeProbability" : 0.94
+    } ]
+  } ]
+} ]

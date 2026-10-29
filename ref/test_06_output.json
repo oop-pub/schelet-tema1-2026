@@ -1,0 +1,802 @@
+[ {
+  "command" : "get",
+  "timestamp" : "2025-02-13T00:15",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T00:00",
+  "to" : "2025-02-13T00:15",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "priceAmount" : 91.5
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2025-02-13T00:45",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD_PREDICTION",
+  "date" : "2025-02-13",
+  "interval" : "00:30 - 00:45",
+  "intervalIndex" : 3,
+  "message" : "Quantity -480.0 is below the minimum allowed value 0; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T00:45",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T00:30",
+  "to" : "2025-02-13T00:45",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "00:30 - 00:45",
+      "intervalIndex" : 3,
+      "priceAmount" : 94.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T01:00",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T00:00",
+  "to" : "2025-02-13T01:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "priceAmount" : 91.5
+    }, {
+      "interval" : "00:30 - 00:45",
+      "intervalIndex" : 3,
+      "priceAmount" : 94.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T01:00",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T00:00",
+  "to" : "2025-02-13T01:00",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "predictedPriceEurMwh" : 93.3,
+      "spikeProbability" : 0.18
+    }, {
+      "interval" : "00:30 - 00:45",
+      "intervalIndex" : 3,
+      "predictedPriceEurMwh" : 95.9,
+      "spikeProbability" : 0.34
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T01:00",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T00:00",
+  "to" : "2025-02-13T01:00",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "quantity" : 6520.0
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2025-02-13T01:15",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD_PREDICTION",
+  "date" : "2025-02-13",
+  "interval" : "01:00 - 01:15",
+  "intervalIndex" : 5,
+  "message" : "ReservesRequiredMW 0.0 is not positive; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T01:15",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T01:00",
+  "to" : "2025-02-13T01:15",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "01:00 - 01:15",
+      "intervalIndex" : 5,
+      "priceAmount" : -500.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T01:15",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T01:00",
+  "to" : "2025-02-13T01:15",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "01:00 - 01:15",
+      "intervalIndex" : 5,
+      "predictedPriceEurMwh" : -500.0,
+      "spikeProbability" : 0.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T01:30",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T00:30",
+  "to" : "2025-02-13T01:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "00:30 - 00:45",
+      "intervalIndex" : 3,
+      "priceAmount" : 94.5
+    }, {
+      "interval" : "01:00 - 01:15",
+      "intervalIndex" : 5,
+      "priceAmount" : -500.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T01:30",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T00:30",
+  "to" : "2025-02-13T01:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "00:30 - 00:45",
+      "intervalIndex" : 3,
+      "predictedPriceEurMwh" : 95.9,
+      "spikeProbability" : 0.34
+    }, {
+      "interval" : "01:00 - 01:15",
+      "intervalIndex" : 5,
+      "predictedPriceEurMwh" : -500.0,
+      "spikeProbability" : 0.0
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2025-02-13T01:45",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD_PREDICTION",
+  "date" : "2025-02-13",
+  "interval" : "01:30 - 01:45",
+  "intervalIndex" : 7,
+  "message" : "ReservesRequiredMW -160.0 is not positive; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T01:45",
+  "status" : "WARNING",
+  "from" : "2025-02-13T01:30",
+  "to" : "2025-02-13T01:45",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T02:00",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T01:00",
+  "to" : "2025-02-13T02:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "01:00 - 01:15",
+      "intervalIndex" : 5,
+      "priceAmount" : -500.0
+    }, {
+      "interval" : "01:30 - 01:45",
+      "intervalIndex" : 7,
+      "priceAmount" : 100.5
+    }, {
+      "interval" : "01:45 - 02:00",
+      "intervalIndex" : 8,
+      "priceAmount" : 102.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T02:00",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T01:00",
+  "to" : "2025-02-13T02:00",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "01:00 - 01:15",
+      "intervalIndex" : 5,
+      "predictedPriceEurMwh" : -500.0,
+      "spikeProbability" : 0.0
+    }, {
+      "interval" : "01:30 - 01:45",
+      "intervalIndex" : 7,
+      "predictedPriceEurMwh" : 101.1,
+      "spikeProbability" : 0.18
+    }, {
+      "interval" : "01:45 - 02:00",
+      "intervalIndex" : 8,
+      "predictedPriceEurMwh" : 102.4,
+      "spikeProbability" : 0.26
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T02:00",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T01:00",
+  "to" : "2025-02-13T02:00",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "01:45 - 02:00",
+      "intervalIndex" : 8,
+      "quantity" : 0.0
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2025-02-13T02:15",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD_PREDICTION",
+  "date" : "2025-02-13",
+  "interval" : "02:00 - 02:15",
+  "intervalIndex" : 9,
+  "message" : "ReservesRequiredMW is null; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T02:30",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T01:30",
+  "to" : "2025-02-13T02:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "01:30 - 01:45",
+      "intervalIndex" : 7,
+      "priceAmount" : 100.5
+    }, {
+      "interval" : "01:45 - 02:00",
+      "intervalIndex" : 8,
+      "priceAmount" : 102.0
+    }, {
+      "interval" : "02:00 - 02:15",
+      "intervalIndex" : 9,
+      "priceAmount" : 103.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T02:30",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T01:30",
+  "to" : "2025-02-13T02:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "01:30 - 01:45",
+      "intervalIndex" : 7,
+      "predictedPriceEurMwh" : 101.1,
+      "spikeProbability" : 0.18
+    }, {
+      "interval" : "01:45 - 02:00",
+      "intervalIndex" : 8,
+      "predictedPriceEurMwh" : 102.4,
+      "spikeProbability" : 0.26
+    }, {
+      "interval" : "02:00 - 02:15",
+      "intervalIndex" : 9,
+      "predictedPriceEurMwh" : 103.7,
+      "spikeProbability" : 0.34
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T02:30",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T01:30",
+  "to" : "2025-02-13T02:30",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "01:45 - 02:00",
+      "intervalIndex" : 8,
+      "quantity" : 0.0
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2025-02-13T02:45",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE",
+  "date" : "2025-02-13",
+  "interval" : "02:30 - 02:45",
+  "intervalIndex" : 11,
+  "message" : "PriceAmount -680.0 is outside the market range [-500, 4000] EUR/MWh; interval skipped."
+}, {
+  "command" : "import",
+  "timestamp" : "2025-02-13T02:45",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE_PREDICTION",
+  "date" : "2025-02-13",
+  "interval" : "02:30 - 02:45",
+  "intervalIndex" : 11,
+  "message" : "PredictedPriceEurMwh is null; interval skipped."
+}, {
+  "command" : "import",
+  "timestamp" : "2025-02-13T03:00",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE",
+  "date" : "2025-02-13",
+  "interval" : "02:45 - 03:00",
+  "intervalIndex" : 12,
+  "message" : "PriceAmount -500.01 is outside the market range [-500, 4000] EUR/MWh; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T03:00",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T02:00",
+  "to" : "2025-02-13T03:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "02:00 - 02:15",
+      "intervalIndex" : 9,
+      "priceAmount" : 103.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T03:00",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T02:00",
+  "to" : "2025-02-13T03:00",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "02:00 - 02:15",
+      "intervalIndex" : 9,
+      "predictedPriceEurMwh" : 103.7,
+      "spikeProbability" : 0.34
+    }, {
+      "interval" : "02:45 - 03:00",
+      "intervalIndex" : 12,
+      "predictedPriceEurMwh" : 107.6,
+      "spikeProbability" : 0.1
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T03:00",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T02:00",
+  "to" : "2025-02-13T03:00",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "02:30 - 02:45",
+      "intervalIndex" : 11,
+      "quantity" : 6720.0
+    }, {
+      "interval" : "02:45 - 03:00",
+      "intervalIndex" : 12,
+      "quantity" : 6740.0
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2025-02-13T03:15",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE",
+  "date" : "2025-02-13",
+  "interval" : "03:00 - 03:15",
+  "intervalIndex" : 13,
+  "message" : "PriceAmount 4600.0 is outside the market range [-500, 4000] EUR/MWh; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T03:15",
+  "status" : "WARNING",
+  "from" : "2025-02-13T03:00",
+  "to" : "2025-02-13T03:15",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T03:30",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T02:30",
+  "to" : "2025-02-13T03:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "02:45 - 03:00",
+      "intervalIndex" : 12,
+      "predictedPriceEurMwh" : 107.6,
+      "spikeProbability" : 0.1
+    }, {
+      "interval" : "03:00 - 03:15",
+      "intervalIndex" : 13,
+      "predictedPriceEurMwh" : 108.9,
+      "spikeProbability" : 0.18
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T03:30",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T02:30",
+  "to" : "2025-02-13T03:30",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "02:30 - 02:45",
+      "intervalIndex" : 11,
+      "quantity" : 6720.0
+    }, {
+      "interval" : "02:45 - 03:00",
+      "intervalIndex" : 12,
+      "quantity" : 6740.0
+    }, {
+      "interval" : "03:00 - 03:15",
+      "intervalIndex" : 13,
+      "quantity" : 6760.0
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2025-02-13T03:45",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD_PREDICTION",
+  "date" : "2025-02-13",
+  "interval" : "03:30 - 03:45",
+  "intervalIndex" : 15,
+  "message" : "Quantity is null; interval skipped."
+}, {
+  "command" : "import",
+  "timestamp" : "2025-02-13T03:45",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE",
+  "date" : "2025-02-13",
+  "interval" : "03:30 - 03:45",
+  "intervalIndex" : 15,
+  "message" : "PriceAmount is null; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T03:45",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T03:30",
+  "to" : "2025-02-13T03:45",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "03:30 - 03:45",
+      "intervalIndex" : 15,
+      "predictedPriceEurMwh" : 111.5,
+      "spikeProbability" : 0.34
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T04:00",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T03:00",
+  "to" : "2025-02-13T04:00",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "03:00 - 03:15",
+      "intervalIndex" : 13,
+      "predictedPriceEurMwh" : 108.9,
+      "spikeProbability" : 0.18
+    }, {
+      "interval" : "03:30 - 03:45",
+      "intervalIndex" : 15,
+      "predictedPriceEurMwh" : 111.5,
+      "spikeProbability" : 0.34
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T04:00",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T03:00",
+  "to" : "2025-02-13T04:00",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "03:00 - 03:15",
+      "intervalIndex" : 13,
+      "quantity" : 6760.0
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2025-02-13T04:15",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE_PREDICTION",
+  "date" : "2025-02-13",
+  "interval" : "04:00 - 04:15",
+  "intervalIndex" : 17,
+  "message" : "SpikeProbability -0.25 is outside the valid range [0.0, 1.0]; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T04:15",
+  "status" : "ERROR",
+  "from" : "2025-02-13T04:00",
+  "to" : "2025-02-13T04:15",
+  "message" : "Access denied: DAM_PRICE_PREDICTION requires PREMIUM subscription."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T04:30",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T03:30",
+  "to" : "2025-02-13T04:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "04:00 - 04:15",
+      "intervalIndex" : 17,
+      "priceAmount" : 115.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T04:30",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T03:30",
+  "to" : "2025-02-13T04:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "03:30 - 03:45",
+      "intervalIndex" : 15,
+      "predictedPriceEurMwh" : 111.5,
+      "spikeProbability" : 0.34
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T04:30",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T03:30",
+  "to" : "2025-02-13T04:30",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "04:00 - 04:15",
+      "intervalIndex" : 17,
+      "quantity" : 6840.0
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2025-02-13T04:45",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE_PREDICTION",
+  "date" : "2025-02-13",
+  "interval" : "04:30 - 04:45",
+  "intervalIndex" : 19,
+  "message" : "SpikeProbability 1.65 is outside the valid range [0.0, 1.0]; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T04:45",
+  "status" : "WARNING",
+  "from" : "2025-02-13T04:30",
+  "to" : "2025-02-13T04:45",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T05:00",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T04:45",
+  "to" : "2025-02-13T05:00",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "04:45 - 05:00",
+      "intervalIndex" : 20,
+      "predictedPriceEurMwh" : 4000.0,
+      "spikeProbability" : 1.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T05:00",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T04:00",
+  "to" : "2025-02-13T05:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "04:00 - 04:15",
+      "intervalIndex" : 17,
+      "priceAmount" : 115.5
+    }, {
+      "interval" : "04:30 - 04:45",
+      "intervalIndex" : 19,
+      "priceAmount" : 118.5
+    }, {
+      "interval" : "04:45 - 05:00",
+      "intervalIndex" : 20,
+      "priceAmount" : 120.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T05:00",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T04:00",
+  "to" : "2025-02-13T05:00",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "04:45 - 05:00",
+      "intervalIndex" : 20,
+      "predictedPriceEurMwh" : 4000.0,
+      "spikeProbability" : 1.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T05:00",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T04:00",
+  "to" : "2025-02-13T05:00",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "04:00 - 04:15",
+      "intervalIndex" : 17,
+      "quantity" : 6840.0
+    }, {
+      "interval" : "04:30 - 04:45",
+      "intervalIndex" : 19,
+      "quantity" : 6880.0
+    }, {
+      "interval" : "04:45 - 05:00",
+      "intervalIndex" : 20,
+      "quantity" : 6900.0
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2025-02-13T05:15",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD_PREDICTION",
+  "date" : "2025-02-13",
+  "interval" : "05:00 - 05:15",
+  "intervalIndex" : 21,
+  "message" : "Quantity -0.01 is below the minimum allowed value 0; interval skipped."
+}, {
+  "command" : "import",
+  "timestamp" : "2025-02-13T05:15",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE_PREDICTION",
+  "date" : "2025-02-13",
+  "interval" : "05:00 - 05:15",
+  "intervalIndex" : 21,
+  "message" : "SpikeProbability is null; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T05:30",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T04:30",
+  "to" : "2025-02-13T05:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "04:30 - 04:45",
+      "intervalIndex" : 19,
+      "priceAmount" : 118.5
+    }, {
+      "interval" : "04:45 - 05:00",
+      "intervalIndex" : 20,
+      "priceAmount" : 120.0
+    }, {
+      "interval" : "05:00 - 05:15",
+      "intervalIndex" : 21,
+      "priceAmount" : 4000.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T05:30",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T04:30",
+  "to" : "2025-02-13T05:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "04:45 - 05:00",
+      "intervalIndex" : 20,
+      "predictedPriceEurMwh" : 4000.0,
+      "spikeProbability" : 1.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-02-13T05:30",
+  "status" : "SUCCESS",
+  "from" : "2025-02-13T04:30",
+  "to" : "2025-02-13T05:30",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2025-02-13",
+    "data" : [ {
+      "interval" : "04:30 - 04:45",
+      "intervalIndex" : 19,
+      "quantity" : 6880.0
+    }, {
+      "interval" : "04:45 - 05:00",
+      "intervalIndex" : 20,
+      "quantity" : 6900.0
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2025-02-13T06:45",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD_PREDICTION",
+  "date" : "2025-02-13",
+  "interval" : "06:30 - 06:45",
+  "intervalIndex" : 27,
+  "message" : "ReservesRequiredMW 0.0 is not positive; interval skipped."
+}, {
+  "command" : "import",
+  "timestamp" : "2025-02-13T06:45",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE",
+  "date" : "2025-02-13",
+  "interval" : "06:30 - 06:45",
+  "intervalIndex" : 27,
+  "message" : "PriceAmount is null; interval skipped."
+}, {
+  "command" : "import",
+  "timestamp" : "2025-02-13T06:45",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE_PREDICTION",
+  "date" : "2025-02-13",
+  "interval" : "06:30 - 06:45",
+  "intervalIndex" : 27,
+  "message" : "SpikeProbability 1.0001 is outside the valid range [0.0, 1.0]; interval skipped."
+} ]

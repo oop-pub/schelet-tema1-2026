@@ -1,0 +1,5982 @@
+[ {
+  "command" : "import",
+  "timestamp" : "2025-10-15T00:45",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE",
+  "date" : "2025-10-15",
+  "interval" : "00:30 - 00:45",
+  "intervalIndex" : 3,
+  "message" : "PriceAmount is null; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T00:45",
+  "status" : "WARNING",
+  "from" : "2025-10-15T00:30",
+  "to" : "2025-10-15T00:45",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "import",
+  "timestamp" : "2025-10-15T01:15",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE_PREDICTION",
+  "date" : "2025-10-15",
+  "interval" : "01:00 - 01:15",
+  "intervalIndex" : 5,
+  "message" : "SpikeProbability 1.8 is outside the valid range [0.0, 1.0]; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:15",
+  "status" : "WARNING",
+  "from" : "2025-10-15T01:00",
+  "to" : "2025-10-15T01:15",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:15",
+  "status" : "ERROR",
+  "from" : "2025-10-15T01:00",
+  "to" : "2025-10-15T01:15",
+  "message" : "Access denied: DAM_PRICE_PREDICTION requires PREMIUM subscription."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:15",
+  "status" : "WARNING",
+  "from" : "2025-10-15T01:15",
+  "to" : "2025-10-15T01:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:15",
+  "status" : "WARNING",
+  "from" : "2025-10-15T01:15",
+  "to" : "2025-10-15T01:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:15",
+  "status" : "WARNING",
+  "from" : "2025-10-15T01:00",
+  "to" : "2025-10-15T01:15",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T01:00",
+  "to" : "2025-10-15T01:15",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "01:00 - 01:15",
+      "intervalIndex" : 5,
+      "priceAmount" : 106.0
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2025-10-15T01:45",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE",
+  "date" : "2025-10-15",
+  "interval" : "01:30 - 01:45",
+  "intervalIndex" : 7,
+  "message" : "PriceAmount 4600.0 is outside the market range [-500, 4000] EUR/MWh; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:45",
+  "status" : "WARNING",
+  "from" : "2025-10-15T01:30",
+  "to" : "2025-10-15T01:45",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:45",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T01:30",
+  "to" : "2025-10-15T01:45",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "01:30 - 01:45",
+      "intervalIndex" : 7,
+      "quantity" : 6140.0
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2025-10-15T02:00",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD_PREDICTION",
+  "date" : "2025-10-15",
+  "interval" : "01:45 - 02:00",
+  "intervalIndex" : 8,
+  "message" : "Quantity -420.0 is below the minimum allowed value 0; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:00",
+  "status" : "WARNING",
+  "from" : "2025-10-15T01:45",
+  "to" : "2025-10-15T02:00",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:00",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T01:45",
+  "to" : "2025-10-15T02:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "01:45 - 02:00",
+      "intervalIndex" : 8,
+      "priceAmount" : 109.6
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "WARNING",
+  "from" : "2025-10-15T00:30",
+  "to" : "2025-10-15T00:45",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-14T23:45",
+  "to" : "2025-10-15T01:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "priceAmount" : 101.2
+    }, {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "priceAmount" : 102.4
+    } ]
+  } ]
+}, {
+  "command" : "patch",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE",
+  "date" : "2025-10-15",
+  "interval" : "00:15 - 00:30",
+  "intervalIndex" : 2,
+  "message" : "PriceAmount is null; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-14T23:45",
+  "to" : "2025-10-15T01:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "priceAmount" : 125.5
+    }, {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "priceAmount" : 102.4
+    }, {
+      "interval" : "00:30 - 00:45",
+      "intervalIndex" : 3,
+      "priceAmount" : 125.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:00",
+  "to" : "2025-10-15T00:15",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "predictedPriceEurMwh" : 106.1,
+      "spikeProbability" : 0.18
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:15",
+  "to" : "2025-10-15T00:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "predictedPriceEurMwh" : 107.2,
+      "spikeProbability" : 0.26
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:30",
+  "to" : "2025-10-15T00:45",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:30 - 00:45",
+      "intervalIndex" : 3,
+      "predictedPriceEurMwh" : 108.3,
+      "spikeProbability" : 0.34
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-14T23:45",
+  "to" : "2025-10-15T01:00",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "predictedPriceEurMwh" : 106.1,
+      "spikeProbability" : 0.18
+    }, {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "predictedPriceEurMwh" : 107.2,
+      "spikeProbability" : 0.26
+    }, {
+      "interval" : "00:30 - 00:45",
+      "intervalIndex" : 3,
+      "predictedPriceEurMwh" : 108.3,
+      "spikeProbability" : 0.34
+    } ]
+  } ]
+}, {
+  "command" : "patch",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE_PREDICTION",
+  "date" : "2025-10-15",
+  "interval" : "00:15 - 00:30",
+  "intervalIndex" : 2,
+  "message" : "SpikeProbability 1.01 is outside the valid range [0.0, 1.0]; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:00",
+  "to" : "2025-10-15T00:15",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "predictedPriceEurMwh" : 128.25,
+      "spikeProbability" : 0.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:15",
+  "to" : "2025-10-15T00:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "predictedPriceEurMwh" : 107.2,
+      "spikeProbability" : 0.26
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:30",
+  "to" : "2025-10-15T00:45",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:30 - 00:45",
+      "intervalIndex" : 3,
+      "predictedPriceEurMwh" : 128.25,
+      "spikeProbability" : 0.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-14T23:45",
+  "to" : "2025-10-15T01:00",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "predictedPriceEurMwh" : 128.25,
+      "spikeProbability" : 0.25
+    }, {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "predictedPriceEurMwh" : 107.2,
+      "spikeProbability" : 0.26
+    }, {
+      "interval" : "00:30 - 00:45",
+      "intervalIndex" : 3,
+      "predictedPriceEurMwh" : 128.25,
+      "spikeProbability" : 0.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-14T23:45",
+  "to" : "2025-10-15T01:00",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "quantity" : 6118.0
+    }, {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "quantity" : 6136.0
+    }, {
+      "interval" : "00:30 - 00:45",
+      "intervalIndex" : 3,
+      "quantity" : 6154.0
+    } ]
+  } ]
+}, {
+  "command" : "patch",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD_PREDICTION",
+  "date" : "2025-10-15",
+  "interval" : "00:15 - 00:30",
+  "intervalIndex" : 2,
+  "message" : "ReservesRequiredMW 0.0 is not positive; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-14T23:45",
+  "to" : "2025-10-15T01:00",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "quantity" : 6200.25
+    }, {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "quantity" : 6136.0
+    }, {
+      "interval" : "00:30 - 00:45",
+      "intervalIndex" : 3,
+      "quantity" : 6200.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-14T23:45",
+  "to" : "2025-10-15T01:00",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "quantity" : 6020.0
+    }, {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "quantity" : 6040.0
+    }, {
+      "interval" : "00:30 - 00:45",
+      "intervalIndex" : 3,
+      "quantity" : 6060.0
+    } ]
+  } ]
+}, {
+  "command" : "patch",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD",
+  "date" : "2025-10-15",
+  "interval" : "00:15 - 00:30",
+  "intervalIndex" : 2,
+  "message" : "Quantity -1.0 is below the minimum allowed value 0; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-14T23:45",
+  "to" : "2025-10-15T01:00",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "quantity" : 6400.0
+    }, {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "quantity" : 6040.0
+    }, {
+      "interval" : "00:30 - 00:45",
+      "intervalIndex" : 3,
+      "quantity" : 6400.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:00",
+  "to" : "2025-10-15T00:15",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "positiveImbalancePrice" : 112.0,
+      "negativeImbalancePrice" : 121.8
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:15",
+  "to" : "2025-10-15T00:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "positiveImbalancePrice" : 114.0,
+      "negativeImbalancePrice" : 123.6
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:30",
+  "to" : "2025-10-15T00:45",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:30 - 00:45",
+      "intervalIndex" : 3,
+      "positiveImbalancePrice" : 116.0,
+      "negativeImbalancePrice" : 125.4
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-14T23:45",
+  "to" : "2025-10-15T01:00",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "positiveImbalancePrice" : 112.0,
+      "negativeImbalancePrice" : 121.8
+    }, {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "positiveImbalancePrice" : 114.0,
+      "negativeImbalancePrice" : 123.6
+    }, {
+      "interval" : "00:30 - 00:45",
+      "intervalIndex" : 3,
+      "positiveImbalancePrice" : 116.0,
+      "negativeImbalancePrice" : 125.4
+    } ]
+  } ]
+}, {
+  "command" : "patch",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "WARNING",
+  "id" : "IMBALANCE_PRICE",
+  "date" : "2025-10-15",
+  "interval" : "00:15 - 00:30",
+  "intervalIndex" : 2,
+  "message" : "PositiveImbalancePrice 15000.01 exceeds the maximum allowed value 15000 EUR/MWh; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:00",
+  "to" : "2025-10-15T00:15",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "positiveImbalancePrice" : 150.0,
+      "negativeImbalancePrice" : 175.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:15",
+  "to" : "2025-10-15T00:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "positiveImbalancePrice" : 114.0,
+      "negativeImbalancePrice" : 123.6
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:30",
+  "to" : "2025-10-15T00:45",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:30 - 00:45",
+      "intervalIndex" : 3,
+      "positiveImbalancePrice" : 150.0,
+      "negativeImbalancePrice" : 175.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-14T23:45",
+  "to" : "2025-10-15T01:00",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "positiveImbalancePrice" : 150.0,
+      "negativeImbalancePrice" : 175.0
+    }, {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "positiveImbalancePrice" : 114.0,
+      "negativeImbalancePrice" : 123.6
+    }, {
+      "interval" : "00:30 - 00:45",
+      "intervalIndex" : 3,
+      "positiveImbalancePrice" : 150.0,
+      "negativeImbalancePrice" : 175.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:00",
+  "to" : "2025-10-15T00:15",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "positiveImbalanceVol" : 11.5,
+      "negativeImbalanceVol" : 6.2
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:15",
+  "to" : "2025-10-15T00:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "positiveImbalanceVol" : 13.0,
+      "negativeImbalanceVol" : 7.4
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:30",
+  "to" : "2025-10-15T00:45",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:30 - 00:45",
+      "intervalIndex" : 3,
+      "positiveImbalanceVol" : 14.5,
+      "negativeImbalanceVol" : 8.6
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-14T23:45",
+  "to" : "2025-10-15T01:00",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "positiveImbalanceVol" : 11.5,
+      "negativeImbalanceVol" : 6.2
+    }, {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "positiveImbalanceVol" : 13.0,
+      "negativeImbalanceVol" : 7.4
+    }, {
+      "interval" : "00:30 - 00:45",
+      "intervalIndex" : 3,
+      "positiveImbalanceVol" : 14.5,
+      "negativeImbalanceVol" : 8.6
+    } ]
+  } ]
+}, {
+  "command" : "patch",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "WARNING",
+  "id" : "IMBALANCE_VOLUME",
+  "date" : "2025-10-15",
+  "interval" : "00:15 - 00:30",
+  "intervalIndex" : 2,
+  "message" : "NegativeImbalanceVol -0.01 is below the minimum allowed value 0; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:00",
+  "to" : "2025-10-15T00:15",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "positiveImbalanceVol" : 25.5,
+      "negativeImbalanceVol" : 12.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:15",
+  "to" : "2025-10-15T00:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "positiveImbalanceVol" : 13.0,
+      "negativeImbalanceVol" : 7.4
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:30",
+  "to" : "2025-10-15T00:45",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:30 - 00:45",
+      "intervalIndex" : 3,
+      "positiveImbalanceVol" : 25.5,
+      "negativeImbalanceVol" : 12.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-14T23:45",
+  "to" : "2025-10-15T01:00",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "positiveImbalanceVol" : 25.5,
+      "negativeImbalanceVol" : 12.25
+    }, {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "positiveImbalanceVol" : 13.0,
+      "negativeImbalanceVol" : 7.4
+    }, {
+      "interval" : "00:30 - 00:45",
+      "intervalIndex" : 3,
+      "positiveImbalanceVol" : 25.5,
+      "negativeImbalanceVol" : 12.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T02:00",
+  "to" : "2025-10-15T02:15",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "02:00 - 02:15",
+      "intervalIndex" : 9,
+      "priceAmount" : 110.8
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T02:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T02:00",
+  "to" : "2025-10-15T02:15",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "02:00 - 02:15",
+      "intervalIndex" : 9,
+      "quantity" : 6180.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T00:14",
+  "status" : "WARNING",
+  "from" : "2026-01-01T00:00",
+  "to" : "2026-01-01T00:15",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "import",
+  "timestamp" : "2026-01-01T00:30",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE",
+  "date" : "2026-01-01",
+  "interval" : "00:15 - 00:30",
+  "intervalIndex" : 2,
+  "message" : "PriceAmount -500.01 is outside the market range [-500, 4000] EUR/MWh; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T00:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T00:15",
+  "to" : "2026-01-01T00:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T00:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T00:15",
+  "to" : "2026-01-01T00:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T00:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T00:15",
+  "to" : "2026-01-01T00:30",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "quantity" : 6200.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T00:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T00:15",
+  "to" : "2026-01-01T00:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T00:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T00:15",
+  "to" : "2026-01-01T00:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T00:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T00:15",
+  "to" : "2026-01-01T00:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T00:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T00:00",
+  "to" : "2026-01-01T00:45",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "priceAmount" : 92.04
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T00:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T00:00",
+  "to" : "2026-01-01T00:45",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "priceAmount" : 92.04
+    }, {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "priceAmount" : 205.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T00:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T00:15",
+  "to" : "2026-01-01T00:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "priceAmount" : 205.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T01:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T00:00",
+  "to" : "2026-01-01T01:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "priceAmount" : 92.04
+    }, {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "priceAmount" : 205.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T01:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T01:15",
+  "to" : "2026-01-01T01:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "patch",
+  "timestamp" : "2026-01-01T01:30",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE",
+  "date" : "2026-01-01",
+  "interval" : "01:15 - 01:30",
+  "intervalIndex" : 6,
+  "message" : "PriceAmount is null; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T01:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T00:00",
+  "to" : "2026-01-01T00:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "priceAmount" : 125.5
+    }, {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "priceAmount" : 125.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T01:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T01:15",
+  "to" : "2026-01-01T01:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "priceAmount" : 125.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T01:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T01:15",
+  "to" : "2026-01-01T01:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "priceAmount" : 125.5
+    } ]
+  } ]
+}, {
+  "command" : "patch",
+  "timestamp" : "2026-01-01T01:30",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE",
+  "date" : "2026-01-01",
+  "interval" : "01:15 - 01:30",
+  "intervalIndex" : 6,
+  "message" : "PriceAmount 4000.01 is outside the market range [-500, 4000] EUR/MWh; interval skipped."
+}, {
+  "command" : "patch",
+  "timestamp" : "2026-01-01T01:30",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE",
+  "date" : "2026-01-01",
+  "interval" : "00:00 - 00:15",
+  "intervalIndex" : 1,
+  "message" : "PriceAmount 4000.01 is outside the market range [-500, 4000] EUR/MWh; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T01:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T00:00",
+  "to" : "2026-01-01T01:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "priceAmount" : 125.5
+    }, {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "priceAmount" : 125.5
+    }, {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "priceAmount" : 125.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T01:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T00:00",
+  "to" : "2026-01-01T00:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "priceAmount" : 92.04
+    }, {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "priceAmount" : 205.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T01:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T01:15",
+  "to" : "2026-01-01T01:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "priceAmount" : 36.63
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2026-01-01T01:30",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE_PREDICTION",
+  "date" : "2026-01-01",
+  "interval" : "01:15 - 01:30",
+  "intervalIndex" : 6,
+  "message" : "PredictedPriceEurMwh is null; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T01:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T00:30",
+  "to" : "2026-01-01T01:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T01:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T01:15",
+  "to" : "2026-01-01T01:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T01:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T01:15",
+  "to" : "2026-01-01T01:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T01:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T01:15",
+  "to" : "2026-01-01T01:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T02:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T01:00",
+  "to" : "2026-01-01T02:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T02:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T00:30",
+  "to" : "2026-01-01T02:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2026-01-01T02:30",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD_PREDICTION",
+  "date" : "2026-01-01",
+  "interval" : "02:15 - 02:30",
+  "intervalIndex" : 10,
+  "message" : "Quantity is null; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T02:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T01:30",
+  "to" : "2026-01-01T02:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "02:15 - 02:30",
+      "intervalIndex" : 10,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T02:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T01:00",
+  "to" : "2026-01-01T02:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "02:15 - 02:30",
+      "intervalIndex" : 10,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T02:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T00:30",
+  "to" : "2026-01-01T02:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "02:15 - 02:30",
+      "intervalIndex" : 10,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T02:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T02:15",
+  "to" : "2026-01-01T02:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "02:15 - 02:30",
+      "intervalIndex" : 10,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T02:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T02:15",
+  "to" : "2026-01-01T02:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T02:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T02:15",
+  "to" : "2026-01-01T02:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "02:15 - 02:30",
+      "intervalIndex" : 10,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T02:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T02:15",
+  "to" : "2026-01-01T02:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "02:15 - 02:30",
+      "intervalIndex" : 10,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T03:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T02:00",
+  "to" : "2026-01-01T03:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "02:15 - 02:30",
+      "intervalIndex" : 10,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T03:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T01:30",
+  "to" : "2026-01-01T03:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "02:15 - 02:30",
+      "intervalIndex" : 10,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T03:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T01:00",
+  "to" : "2026-01-01T03:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "02:15 - 02:30",
+      "intervalIndex" : 10,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2026-01-01T03:30",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD",
+  "date" : "2026-01-01",
+  "interval" : "03:15 - 03:30",
+  "intervalIndex" : 14,
+  "message" : "Quantity is null; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T03:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T02:30",
+  "to" : "2026-01-01T03:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T03:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T02:00",
+  "to" : "2026-01-01T03:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "02:15 - 02:30",
+      "intervalIndex" : 10,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T03:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T01:30",
+  "to" : "2026-01-01T03:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "02:15 - 02:30",
+      "intervalIndex" : 10,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T03:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T00:30",
+  "to" : "2026-01-01T03:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "02:15 - 02:30",
+      "intervalIndex" : 10,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T03:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T03:15",
+  "to" : "2026-01-01T03:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T03:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T03:15",
+  "to" : "2026-01-01T03:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T03:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T03:15",
+  "to" : "2026-01-01T03:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T03:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T03:15",
+  "to" : "2026-01-01T03:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T03:30",
+  "status" : "ERROR",
+  "from" : "2026-01-01T03:15",
+  "to" : "2026-01-01T03:30",
+  "message" : "Access denied: DAM_PRICE_PREDICTION requires PREMIUM subscription."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T03:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T03:15",
+  "to" : "2026-01-01T03:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T03:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T03:00",
+  "to" : "2026-01-01T03:45",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T03:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T03:00",
+  "to" : "2026-01-01T03:45",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "quantity" : 6400.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T03:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T03:15",
+  "to" : "2026-01-01T03:30",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "quantity" : 6400.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T04:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T03:00",
+  "to" : "2026-01-01T04:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T04:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T02:00",
+  "to" : "2026-01-01T04:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "02:15 - 02:30",
+      "intervalIndex" : 10,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T04:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T01:00",
+  "to" : "2026-01-01T04:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "02:15 - 02:30",
+      "intervalIndex" : 10,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2026-01-01T04:30",
+  "status" : "WARNING",
+  "id" : "IMBALANCE_PRICE",
+  "date" : "2026-01-01",
+  "interval" : "04:15 - 04:30",
+  "intervalIndex" : 18,
+  "message" : "PositiveImbalancePrice is null; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T04:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T03:00",
+  "to" : "2026-01-01T04:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T04:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T02:30",
+  "to" : "2026-01-01T04:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T04:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T01:30",
+  "to" : "2026-01-01T04:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "02:15 - 02:30",
+      "intervalIndex" : 10,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T04:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T04:15",
+  "to" : "2026-01-01T04:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T04:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T04:15",
+  "to" : "2026-01-01T04:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T04:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T04:15",
+  "to" : "2026-01-01T04:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T05:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T03:00",
+  "to" : "2026-01-01T05:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T05:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T02:00",
+  "to" : "2026-01-01T05:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "02:15 - 02:30",
+      "intervalIndex" : 10,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T05:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T05:15",
+  "to" : "2026-01-01T05:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "patch",
+  "timestamp" : "2026-01-01T05:30",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE_PREDICTION",
+  "date" : "2026-01-01",
+  "interval" : "05:15 - 05:30",
+  "intervalIndex" : 22,
+  "message" : "PredictedPriceEurMwh is null; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T05:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T03:15",
+  "to" : "2026-01-01T04:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "predictedPriceEurMwh" : 128.25,
+      "spikeProbability" : 0.25
+    }, {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "predictedPriceEurMwh" : 128.25,
+      "spikeProbability" : 0.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T05:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T05:15",
+  "to" : "2026-01-01T05:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "predictedPriceEurMwh" : 128.25,
+      "spikeProbability" : 0.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T05:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T05:15",
+  "to" : "2026-01-01T05:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "predictedPriceEurMwh" : 128.25,
+      "spikeProbability" : 0.25
+    } ]
+  } ]
+}, {
+  "command" : "patch",
+  "timestamp" : "2026-01-01T05:30",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE_PREDICTION",
+  "date" : "2026-01-01",
+  "interval" : "05:15 - 05:30",
+  "intervalIndex" : 22,
+  "message" : "SpikeProbability 1.01 is outside the valid range [0.0, 1.0]; interval skipped."
+}, {
+  "command" : "patch",
+  "timestamp" : "2026-01-01T05:30",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE_PREDICTION",
+  "date" : "2026-01-01",
+  "interval" : "03:15 - 03:30",
+  "intervalIndex" : 14,
+  "message" : "SpikeProbability 1.01 is outside the valid range [0.0, 1.0]; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T05:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T03:15",
+  "to" : "2026-01-01T05:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "predictedPriceEurMwh" : 128.25,
+      "spikeProbability" : 0.25
+    }, {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "predictedPriceEurMwh" : 128.25,
+      "spikeProbability" : 0.25
+    }, {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "predictedPriceEurMwh" : 128.25,
+      "spikeProbability" : 0.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T05:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T03:15",
+  "to" : "2026-01-01T04:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2026-01-01T05:30",
+  "status" : "WARNING",
+  "id" : "IMBALANCE_VOLUME",
+  "date" : "2026-01-01",
+  "interval" : "05:15 - 05:30",
+  "intervalIndex" : 22,
+  "message" : "NegativeImbalanceVol is null; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T05:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T05:15",
+  "to" : "2026-01-01T05:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T05:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T05:15",
+  "to" : "2026-01-01T05:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T05:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T05:15",
+  "to" : "2026-01-01T05:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T05:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T05:15",
+  "to" : "2026-01-01T05:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T05:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T05:00",
+  "to" : "2026-01-01T05:45",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T05:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T05:00",
+  "to" : "2026-01-01T05:45",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "priceAmount" : 205.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T05:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T04:00",
+  "to" : "2026-01-01T05:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "priceAmount" : 205.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T05:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T03:30",
+  "to" : "2026-01-01T05:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "priceAmount" : 205.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T05:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T02:30",
+  "to" : "2026-01-01T05:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "priceAmount" : 205.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T06:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T04:00",
+  "to" : "2026-01-01T06:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "priceAmount" : 205.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T06:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T03:00",
+  "to" : "2026-01-01T06:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "priceAmount" : 205.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T06:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T05:00",
+  "to" : "2026-01-01T06:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "priceAmount" : 205.5
+    }, {
+      "interval" : "06:15 - 06:30",
+      "intervalIndex" : 26,
+      "priceAmount" : 4000.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T06:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T04:30",
+  "to" : "2026-01-01T06:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "priceAmount" : 205.5
+    }, {
+      "interval" : "06:15 - 06:30",
+      "intervalIndex" : 26,
+      "priceAmount" : 4000.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T06:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T03:30",
+  "to" : "2026-01-01T06:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "priceAmount" : 205.5
+    }, {
+      "interval" : "06:15 - 06:30",
+      "intervalIndex" : 26,
+      "priceAmount" : 4000.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T06:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T06:15",
+  "to" : "2026-01-01T06:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "06:15 - 06:30",
+      "intervalIndex" : 26,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T06:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T06:15",
+  "to" : "2026-01-01T06:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "06:15 - 06:30",
+      "intervalIndex" : 26,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T06:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T06:15",
+  "to" : "2026-01-01T06:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "06:15 - 06:30",
+      "intervalIndex" : 26,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T07:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T05:00",
+  "to" : "2026-01-01T07:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "priceAmount" : 205.5
+    }, {
+      "interval" : "06:15 - 06:30",
+      "intervalIndex" : 26,
+      "priceAmount" : 4000.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T07:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T04:00",
+  "to" : "2026-01-01T07:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "priceAmount" : 205.5
+    }, {
+      "interval" : "06:15 - 06:30",
+      "intervalIndex" : 26,
+      "priceAmount" : 4000.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T07:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T06:00",
+  "to" : "2026-01-01T07:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "06:15 - 06:30",
+      "intervalIndex" : 26,
+      "priceAmount" : 4000.0
+    }, {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T07:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T05:30",
+  "to" : "2026-01-01T07:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "06:15 - 06:30",
+      "intervalIndex" : 26,
+      "priceAmount" : 4000.0
+    }, {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T07:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T04:30",
+  "to" : "2026-01-01T07:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "priceAmount" : 205.5
+    }, {
+      "interval" : "06:15 - 06:30",
+      "intervalIndex" : 26,
+      "priceAmount" : 4000.0
+    }, {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T07:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T07:15",
+  "to" : "2026-01-01T07:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "predictedPriceEurMwh" : 4000.0,
+      "spikeProbability" : 1.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T07:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T07:15",
+  "to" : "2026-01-01T07:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T07:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T07:15",
+  "to" : "2026-01-01T07:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T07:30",
+  "status" : "ERROR",
+  "from" : "2026-01-01T07:15",
+  "to" : "2026-01-01T07:30",
+  "message" : "Access denied: DAM_PRICE_PREDICTION requires PREMIUM subscription."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T08:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T06:00",
+  "to" : "2026-01-01T08:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "06:15 - 06:30",
+      "intervalIndex" : 26,
+      "priceAmount" : 4000.0
+    }, {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T08:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T05:00",
+  "to" : "2026-01-01T08:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "priceAmount" : 205.5
+    }, {
+      "interval" : "06:15 - 06:30",
+      "intervalIndex" : 26,
+      "priceAmount" : 4000.0
+    }, {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2026-01-01T08:30",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD_PREDICTION",
+  "date" : "2026-01-01",
+  "interval" : "08:15 - 08:30",
+  "intervalIndex" : 34,
+  "message" : "Quantity -0.01 is below the minimum allowed value 0; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T08:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T07:00",
+  "to" : "2026-01-01T08:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "08:15 - 08:30",
+      "intervalIndex" : 34,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T08:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T06:30",
+  "to" : "2026-01-01T08:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "08:15 - 08:30",
+      "intervalIndex" : 34,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T08:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T05:30",
+  "to" : "2026-01-01T08:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "06:15 - 06:30",
+      "intervalIndex" : 26,
+      "priceAmount" : 4000.0
+    }, {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "08:15 - 08:30",
+      "intervalIndex" : 34,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T08:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T08:15",
+  "to" : "2026-01-01T08:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "08:15 - 08:30",
+      "intervalIndex" : 34,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T08:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T08:15",
+  "to" : "2026-01-01T08:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T08:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T08:15",
+  "to" : "2026-01-01T08:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "08:15 - 08:30",
+      "intervalIndex" : 34,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T08:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T08:15",
+  "to" : "2026-01-01T08:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "08:15 - 08:30",
+      "intervalIndex" : 34,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T09:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T07:00",
+  "to" : "2026-01-01T09:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "08:15 - 08:30",
+      "intervalIndex" : 34,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T09:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T06:00",
+  "to" : "2026-01-01T09:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "06:15 - 06:30",
+      "intervalIndex" : 26,
+      "priceAmount" : 4000.0
+    }, {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "08:15 - 08:30",
+      "intervalIndex" : 34,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T09:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T09:15",
+  "to" : "2026-01-01T09:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "patch",
+  "timestamp" : "2026-01-01T09:30",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD_PREDICTION",
+  "date" : "2026-01-01",
+  "interval" : "09:15 - 09:30",
+  "intervalIndex" : 38,
+  "message" : "Quantity is null; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T09:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T06:15",
+  "to" : "2026-01-01T07:30",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "06:15 - 06:30",
+      "intervalIndex" : 26,
+      "quantity" : 6200.25
+    }, {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "quantity" : 6200.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T09:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T09:15",
+  "to" : "2026-01-01T09:30",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "09:15 - 09:30",
+      "intervalIndex" : 38,
+      "quantity" : 6200.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T09:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T09:15",
+  "to" : "2026-01-01T09:30",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "09:15 - 09:30",
+      "intervalIndex" : 38,
+      "quantity" : 6200.5
+    } ]
+  } ]
+}, {
+  "command" : "patch",
+  "timestamp" : "2026-01-01T09:30",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD_PREDICTION",
+  "date" : "2026-01-01",
+  "interval" : "09:15 - 09:30",
+  "intervalIndex" : 38,
+  "message" : "ReservesRequiredMW 0.0 is not positive; interval skipped."
+}, {
+  "command" : "patch",
+  "timestamp" : "2026-01-01T09:30",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD_PREDICTION",
+  "date" : "2026-01-01",
+  "interval" : "06:15 - 06:30",
+  "intervalIndex" : 26,
+  "message" : "ReservesRequiredMW 0.0 is not positive; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T09:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T06:15",
+  "to" : "2026-01-01T09:30",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "06:15 - 06:30",
+      "intervalIndex" : 26,
+      "quantity" : 6200.25
+    }, {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "quantity" : 6200.25
+    }, {
+      "interval" : "09:15 - 09:30",
+      "intervalIndex" : 38,
+      "quantity" : 6200.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T09:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T06:15",
+  "to" : "2026-01-01T07:30",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "06:15 - 06:30",
+      "intervalIndex" : 26,
+      "quantity" : 6200.25
+    }, {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "quantity" : 6200.25
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2026-01-01T09:30",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD",
+  "date" : "2026-01-01",
+  "interval" : "09:15 - 09:30",
+  "intervalIndex" : 38,
+  "message" : "Quantity -0.01 is below the minimum allowed value 0; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T09:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T09:15",
+  "to" : "2026-01-01T09:30",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "09:15 - 09:30",
+      "intervalIndex" : 38,
+      "quantity" : 6200.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T09:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T08:00",
+  "to" : "2026-01-01T09:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "08:15 - 08:30",
+      "intervalIndex" : 34,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "09:15 - 09:30",
+      "intervalIndex" : 38,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T09:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T07:30",
+  "to" : "2026-01-01T09:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "08:15 - 08:30",
+      "intervalIndex" : 34,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "09:15 - 09:30",
+      "intervalIndex" : 38,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T09:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T06:30",
+  "to" : "2026-01-01T09:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "08:15 - 08:30",
+      "intervalIndex" : 34,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "09:15 - 09:30",
+      "intervalIndex" : 38,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T09:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T09:15",
+  "to" : "2026-01-01T09:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "09:15 - 09:30",
+      "intervalIndex" : 38,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T09:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T09:15",
+  "to" : "2026-01-01T09:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T09:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T09:15",
+  "to" : "2026-01-01T09:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "09:15 - 09:30",
+      "intervalIndex" : 38,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T09:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T09:15",
+  "to" : "2026-01-01T09:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "09:15 - 09:30",
+      "intervalIndex" : 38,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T09:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T09:15",
+  "to" : "2026-01-01T09:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T09:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T09:00",
+  "to" : "2026-01-01T09:45",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T09:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T09:00",
+  "to" : "2026-01-01T09:45",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "09:15 - 09:30",
+      "intervalIndex" : 38,
+      "quantity" : 6400.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T10:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T08:00",
+  "to" : "2026-01-01T10:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "08:15 - 08:30",
+      "intervalIndex" : 34,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "09:15 - 09:30",
+      "intervalIndex" : 38,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T10:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T07:00",
+  "to" : "2026-01-01T10:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "08:15 - 08:30",
+      "intervalIndex" : 34,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "09:15 - 09:30",
+      "intervalIndex" : 38,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2026-01-01T10:30",
+  "status" : "WARNING",
+  "id" : "IMBALANCE_PRICE",
+  "date" : "2026-01-01",
+  "interval" : "10:15 - 10:30",
+  "intervalIndex" : 42,
+  "message" : "PositiveImbalancePrice -15000.01 exceeds the maximum allowed value 15000 EUR/MWh; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T10:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T09:00",
+  "to" : "2026-01-01T10:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "09:15 - 09:30",
+      "intervalIndex" : 38,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "10:15 - 10:30",
+      "intervalIndex" : 42,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T10:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T08:30",
+  "to" : "2026-01-01T10:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "09:15 - 09:30",
+      "intervalIndex" : 38,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "10:15 - 10:30",
+      "intervalIndex" : 42,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T10:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T10:15",
+  "to" : "2026-01-01T10:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "10:15 - 10:30",
+      "intervalIndex" : 42,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T10:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T10:15",
+  "to" : "2026-01-01T10:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T10:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T10:15",
+  "to" : "2026-01-01T10:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "10:15 - 10:30",
+      "intervalIndex" : 42,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T11:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T09:00",
+  "to" : "2026-01-01T11:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "09:15 - 09:30",
+      "intervalIndex" : 38,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "10:15 - 10:30",
+      "intervalIndex" : 42,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2026-01-01T11:30",
+  "status" : "WARNING",
+  "id" : "IMBALANCE_VOLUME",
+  "date" : "2026-01-01",
+  "interval" : "11:15 - 11:30",
+  "intervalIndex" : 46,
+  "message" : "PositiveImbalanceVol is null; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T11:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T11:15",
+  "to" : "2026-01-01T11:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "11:15 - 11:30",
+      "intervalIndex" : 46,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T11:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T11:15",
+  "to" : "2026-01-01T11:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "11:15 - 11:30",
+      "intervalIndex" : 46,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T11:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T11:15",
+  "to" : "2026-01-01T11:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T11:30",
+  "status" : "ERROR",
+  "from" : "2026-01-01T11:15",
+  "to" : "2026-01-01T11:30",
+  "message" : "Access denied: DAM_PRICE_PREDICTION requires PREMIUM subscription."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T11:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T11:00",
+  "to" : "2026-01-01T11:45",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "11:15 - 11:30",
+      "intervalIndex" : 46,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T11:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T11:00",
+  "to" : "2026-01-01T11:45",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "11:15 - 11:30",
+      "intervalIndex" : 46,
+      "priceAmount" : 205.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T11:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T10:00",
+  "to" : "2026-01-01T11:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "10:15 - 10:30",
+      "intervalIndex" : 42,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "11:15 - 11:30",
+      "intervalIndex" : 46,
+      "priceAmount" : 205.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T11:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T09:30",
+  "to" : "2026-01-01T11:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "10:15 - 10:30",
+      "intervalIndex" : 42,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "11:15 - 11:30",
+      "intervalIndex" : 46,
+      "priceAmount" : 205.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T12:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T10:00",
+  "to" : "2026-01-01T12:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "10:15 - 10:30",
+      "intervalIndex" : 42,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "11:15 - 11:30",
+      "intervalIndex" : 46,
+      "priceAmount" : 205.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T12:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T12:15",
+  "to" : "2026-01-01T12:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "patch",
+  "timestamp" : "2026-01-01T12:30",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD",
+  "date" : "2026-01-01",
+  "interval" : "12:15 - 12:30",
+  "intervalIndex" : 50,
+  "message" : "Quantity is null; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T12:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T10:15",
+  "to" : "2026-01-01T11:30",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "10:15 - 10:30",
+      "intervalIndex" : 42,
+      "quantity" : 6000.0
+    }, {
+      "interval" : "11:15 - 11:30",
+      "intervalIndex" : 46,
+      "quantity" : 6000.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T12:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T12:15",
+  "to" : "2026-01-01T12:30",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "12:15 - 12:30",
+      "intervalIndex" : 50,
+      "quantity" : 6000.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T12:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T12:15",
+  "to" : "2026-01-01T12:30",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "12:15 - 12:30",
+      "intervalIndex" : 50,
+      "quantity" : 6000.25
+    } ]
+  } ]
+}, {
+  "command" : "patch",
+  "timestamp" : "2026-01-01T12:30",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD",
+  "date" : "2026-01-01",
+  "interval" : "12:15 - 12:30",
+  "intervalIndex" : 50,
+  "message" : "Quantity -1.0 is below the minimum allowed value 0; interval skipped."
+}, {
+  "command" : "patch",
+  "timestamp" : "2026-01-01T12:30",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD",
+  "date" : "2026-01-01",
+  "interval" : "10:15 - 10:30",
+  "intervalIndex" : 42,
+  "message" : "Quantity -1.0 is below the minimum allowed value 0; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T12:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T10:15",
+  "to" : "2026-01-01T12:30",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "10:15 - 10:30",
+      "intervalIndex" : 42,
+      "quantity" : 6000.0
+    }, {
+      "interval" : "11:15 - 11:30",
+      "intervalIndex" : 46,
+      "quantity" : 6000.0
+    }, {
+      "interval" : "12:15 - 12:30",
+      "intervalIndex" : 50,
+      "quantity" : 6000.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T12:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T10:15",
+  "to" : "2026-01-01T11:30",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "10:15 - 10:30",
+      "intervalIndex" : 42,
+      "quantity" : 6000.0
+    }, {
+      "interval" : "11:15 - 11:30",
+      "intervalIndex" : 46,
+      "quantity" : 6000.0
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2026-01-01T12:30",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE",
+  "date" : "2026-01-01",
+  "interval" : "12:15 - 12:30",
+  "intervalIndex" : 50,
+  "message" : "PriceAmount is null; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T12:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T12:15",
+  "to" : "2026-01-01T12:30",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "12:15 - 12:30",
+      "intervalIndex" : 50,
+      "quantity" : 6000.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T12:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T12:15",
+  "to" : "2026-01-01T12:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T12:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T12:15",
+  "to" : "2026-01-01T12:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "12:15 - 12:30",
+      "intervalIndex" : 50,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T12:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T12:15",
+  "to" : "2026-01-01T12:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "12:15 - 12:30",
+      "intervalIndex" : 50,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T12:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T12:15",
+  "to" : "2026-01-01T12:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "12:15 - 12:30",
+      "intervalIndex" : 50,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T12:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T12:15",
+  "to" : "2026-01-01T12:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T12:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T12:00",
+  "to" : "2026-01-01T12:45",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T12:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T12:00",
+  "to" : "2026-01-01T12:45",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "12:15 - 12:30",
+      "intervalIndex" : 50,
+      "priceAmount" : 205.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T12:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T11:00",
+  "to" : "2026-01-01T12:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "11:15 - 11:30",
+      "intervalIndex" : 46,
+      "priceAmount" : 205.5
+    }, {
+      "interval" : "12:15 - 12:30",
+      "intervalIndex" : 50,
+      "priceAmount" : 205.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T12:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T10:30",
+  "to" : "2026-01-01T12:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "11:15 - 11:30",
+      "intervalIndex" : 46,
+      "priceAmount" : 205.5
+    }, {
+      "interval" : "12:15 - 12:30",
+      "intervalIndex" : 50,
+      "priceAmount" : 205.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T13:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T11:00",
+  "to" : "2026-01-01T13:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "11:15 - 11:30",
+      "intervalIndex" : 46,
+      "priceAmount" : 205.5
+    }, {
+      "interval" : "12:15 - 12:30",
+      "intervalIndex" : 50,
+      "priceAmount" : 205.5
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2026-01-01T13:30",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE_PREDICTION",
+  "date" : "2026-01-01",
+  "interval" : "13:15 - 13:30",
+  "intervalIndex" : 54,
+  "message" : "SpikeProbability 1.0001 is outside the valid range [0.0, 1.0]; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T13:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T12:00",
+  "to" : "2026-01-01T13:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "12:15 - 12:30",
+      "intervalIndex" : 50,
+      "priceAmount" : 205.5
+    }, {
+      "interval" : "13:15 - 13:30",
+      "intervalIndex" : 54,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T13:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T11:30",
+  "to" : "2026-01-01T13:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "12:15 - 12:30",
+      "intervalIndex" : 50,
+      "priceAmount" : 205.5
+    }, {
+      "interval" : "13:15 - 13:30",
+      "intervalIndex" : 54,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T13:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T13:15",
+  "to" : "2026-01-01T13:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T13:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T13:15",
+  "to" : "2026-01-01T13:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "13:15 - 13:30",
+      "intervalIndex" : 54,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T13:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T13:15",
+  "to" : "2026-01-01T13:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "13:15 - 13:30",
+      "intervalIndex" : 54,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T14:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T12:00",
+  "to" : "2026-01-01T14:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "12:15 - 12:30",
+      "intervalIndex" : 50,
+      "priceAmount" : 205.5
+    }, {
+      "interval" : "13:15 - 13:30",
+      "intervalIndex" : 54,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2026-01-01T14:30",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD_PREDICTION",
+  "date" : "2026-01-01",
+  "interval" : "14:15 - 14:30",
+  "intervalIndex" : 58,
+  "message" : "ReservesRequiredMW 0.0 is not positive; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T14:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T13:00",
+  "to" : "2026-01-01T14:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "13:15 - 13:30",
+      "intervalIndex" : 54,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "14:15 - 14:30",
+      "intervalIndex" : 58,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T14:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T12:30",
+  "to" : "2026-01-01T14:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "13:15 - 13:30",
+      "intervalIndex" : 54,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "14:15 - 14:30",
+      "intervalIndex" : 58,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T14:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T14:15",
+  "to" : "2026-01-01T14:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "14:15 - 14:30",
+      "intervalIndex" : 58,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T14:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T14:15",
+  "to" : "2026-01-01T14:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T14:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T14:15",
+  "to" : "2026-01-01T14:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "14:15 - 14:30",
+      "intervalIndex" : 58,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T14:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T14:15",
+  "to" : "2026-01-01T14:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "14:15 - 14:30",
+      "intervalIndex" : 58,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T15:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T13:00",
+  "to" : "2026-01-01T15:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "13:15 - 13:30",
+      "intervalIndex" : 54,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "14:15 - 14:30",
+      "intervalIndex" : 58,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T15:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T15:15",
+  "to" : "2026-01-01T15:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "15:15 - 15:30",
+      "intervalIndex" : 62,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T15:30",
+  "status" : "ERROR",
+  "from" : "2026-01-01T15:15",
+  "to" : "2026-01-01T15:30",
+  "message" : "Access denied: DAM_PRICE_PREDICTION requires PREMIUM subscription."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T15:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T15:30",
+  "to" : "2026-01-01T15:45",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T15:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T14:00",
+  "to" : "2026-01-01T15:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "14:15 - 14:30",
+      "intervalIndex" : 58,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "15:15 - 15:30",
+      "intervalIndex" : 62,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T15:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T13:30",
+  "to" : "2026-01-01T15:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "14:15 - 14:30",
+      "intervalIndex" : 58,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "15:15 - 15:30",
+      "intervalIndex" : 62,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T15:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T15:15",
+  "to" : "2026-01-01T15:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "15:15 - 15:30",
+      "intervalIndex" : 62,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T15:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T15:15",
+  "to" : "2026-01-01T15:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "15:15 - 15:30",
+      "intervalIndex" : 62,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T15:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T15:15",
+  "to" : "2026-01-01T15:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "15:15 - 15:30",
+      "intervalIndex" : 62,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T15:30",
+  "status" : "ERROR",
+  "from" : "2026-01-01T15:15",
+  "to" : "2026-01-01T15:30",
+  "message" : "Access denied: DAM_PRICE_PREDICTION requires PREMIUM subscription."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T16:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T14:00",
+  "to" : "2026-01-01T16:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "14:15 - 14:30",
+      "intervalIndex" : 58,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "15:15 - 15:30",
+      "intervalIndex" : 62,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2026-01-01T16:30",
+  "status" : "WARNING",
+  "id" : "IMBALANCE_PRICE",
+  "date" : "2026-01-01",
+  "interval" : "16:15 - 16:30",
+  "intervalIndex" : 66,
+  "message" : "NegativeImbalancePrice 15000.01 exceeds the maximum allowed value 15000 EUR/MWh; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T16:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T15:00",
+  "to" : "2026-01-01T16:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "15:15 - 15:30",
+      "intervalIndex" : 62,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "16:15 - 16:30",
+      "intervalIndex" : 66,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T16:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T14:30",
+  "to" : "2026-01-01T16:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "15:15 - 15:30",
+      "intervalIndex" : 62,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "16:15 - 16:30",
+      "intervalIndex" : 66,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T16:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T16:15",
+  "to" : "2026-01-01T16:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "16:15 - 16:30",
+      "intervalIndex" : 66,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T16:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T16:15",
+  "to" : "2026-01-01T16:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T16:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T16:15",
+  "to" : "2026-01-01T16:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "16:15 - 16:30",
+      "intervalIndex" : 66,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T17:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T15:00",
+  "to" : "2026-01-01T17:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "15:15 - 15:30",
+      "intervalIndex" : 62,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "16:15 - 16:30",
+      "intervalIndex" : 66,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T17:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T17:15",
+  "to" : "2026-01-01T17:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "patch",
+  "timestamp" : "2026-01-01T17:30",
+  "status" : "WARNING",
+  "id" : "IMBALANCE_PRICE",
+  "date" : "2026-01-01",
+  "interval" : "17:15 - 17:30",
+  "intervalIndex" : 70,
+  "message" : "PositiveImbalancePrice is null; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T17:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T14:15",
+  "to" : "2026-01-01T15:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "14:15 - 14:30",
+      "intervalIndex" : 58,
+      "positiveImbalancePrice" : 150.0,
+      "negativeImbalancePrice" : 175.0
+    }, {
+      "interval" : "15:15 - 15:30",
+      "intervalIndex" : 62,
+      "positiveImbalancePrice" : 150.0,
+      "negativeImbalancePrice" : 175.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T17:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T17:15",
+  "to" : "2026-01-01T17:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "17:15 - 17:30",
+      "intervalIndex" : 70,
+      "positiveImbalancePrice" : 150.0,
+      "negativeImbalancePrice" : 175.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T17:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T17:15",
+  "to" : "2026-01-01T17:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "17:15 - 17:30",
+      "intervalIndex" : 70,
+      "positiveImbalancePrice" : 150.0,
+      "negativeImbalancePrice" : 175.0
+    } ]
+  } ]
+}, {
+  "command" : "patch",
+  "timestamp" : "2026-01-01T17:30",
+  "status" : "WARNING",
+  "id" : "IMBALANCE_PRICE",
+  "date" : "2026-01-01",
+  "interval" : "17:15 - 17:30",
+  "intervalIndex" : 70,
+  "message" : "PositiveImbalancePrice 15000.01 exceeds the maximum allowed value 15000 EUR/MWh; interval skipped."
+}, {
+  "command" : "patch",
+  "timestamp" : "2026-01-01T17:30",
+  "status" : "WARNING",
+  "id" : "IMBALANCE_PRICE",
+  "date" : "2026-01-01",
+  "interval" : "14:15 - 14:30",
+  "intervalIndex" : 58,
+  "message" : "PositiveImbalancePrice 15000.01 exceeds the maximum allowed value 15000 EUR/MWh; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T17:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T14:15",
+  "to" : "2026-01-01T17:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "14:15 - 14:30",
+      "intervalIndex" : 58,
+      "positiveImbalancePrice" : 150.0,
+      "negativeImbalancePrice" : 175.0
+    }, {
+      "interval" : "15:15 - 15:30",
+      "intervalIndex" : 62,
+      "positiveImbalancePrice" : 150.0,
+      "negativeImbalancePrice" : 175.0
+    }, {
+      "interval" : "17:15 - 17:30",
+      "intervalIndex" : 70,
+      "positiveImbalancePrice" : 150.0,
+      "negativeImbalancePrice" : 175.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T17:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T14:15",
+  "to" : "2026-01-01T15:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "14:15 - 14:30",
+      "intervalIndex" : 58,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    }, {
+      "interval" : "15:15 - 15:30",
+      "intervalIndex" : 62,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2026-01-01T17:30",
+  "status" : "WARNING",
+  "id" : "IMBALANCE_VOLUME",
+  "date" : "2026-01-01",
+  "interval" : "17:15 - 17:30",
+  "intervalIndex" : 70,
+  "message" : "NegativeImbalanceVol -0.01 is below the minimum allowed value 0; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T17:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T17:15",
+  "to" : "2026-01-01T17:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "17:15 - 17:30",
+      "intervalIndex" : 70,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T17:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T17:15",
+  "to" : "2026-01-01T17:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "17:15 - 17:30",
+      "intervalIndex" : 70,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T17:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T17:15",
+  "to" : "2026-01-01T17:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "17:15 - 17:30",
+      "intervalIndex" : 70,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T17:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T17:15",
+  "to" : "2026-01-01T17:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T17:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T17:00",
+  "to" : "2026-01-01T17:45",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "17:15 - 17:30",
+      "intervalIndex" : 70,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T17:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T17:00",
+  "to" : "2026-01-01T17:45",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "17:15 - 17:30",
+      "intervalIndex" : 70,
+      "priceAmount" : 205.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T17:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T16:00",
+  "to" : "2026-01-01T17:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "16:15 - 16:30",
+      "intervalIndex" : 66,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "17:15 - 17:30",
+      "intervalIndex" : 70,
+      "priceAmount" : 205.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T17:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T15:30",
+  "to" : "2026-01-01T17:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "16:15 - 16:30",
+      "intervalIndex" : 66,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "17:15 - 17:30",
+      "intervalIndex" : 70,
+      "priceAmount" : 205.5
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2026-01-01T18:00",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD",
+  "date" : "2026-01-01",
+  "interval" : "17:45 - 18:00",
+  "intervalIndex" : 72,
+  "message" : "Quantity change exceeds 10000 MW compared with the previous interval; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T18:00",
+  "status" : "WARNING",
+  "from" : "2026-01-01T17:45",
+  "to" : "2026-01-01T18:00",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T18:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T16:00",
+  "to" : "2026-01-01T18:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "16:15 - 16:30",
+      "intervalIndex" : 66,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "17:15 - 17:30",
+      "intervalIndex" : 70,
+      "priceAmount" : 205.5
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2026-01-01T18:30",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD",
+  "date" : "2026-01-01",
+  "interval" : "18:15 - 18:30",
+  "intervalIndex" : 74,
+  "message" : "Quantity change exceeds 10000 MW compared with the previous interval; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T18:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T17:00",
+  "to" : "2026-01-01T18:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "17:15 - 17:30",
+      "intervalIndex" : 70,
+      "priceAmount" : 205.5
+    }, {
+      "interval" : "18:15 - 18:30",
+      "intervalIndex" : 74,
+      "priceAmount" : 0.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T18:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T16:30",
+  "to" : "2026-01-01T18:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "17:15 - 17:30",
+      "intervalIndex" : 70,
+      "priceAmount" : 205.5
+    }, {
+      "interval" : "18:15 - 18:30",
+      "intervalIndex" : 74,
+      "priceAmount" : 0.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T18:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T18:15",
+  "to" : "2026-01-01T18:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "18:15 - 18:30",
+      "intervalIndex" : 74,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T18:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T18:15",
+  "to" : "2026-01-01T18:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T18:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T18:15",
+  "to" : "2026-01-01T18:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "18:15 - 18:30",
+      "intervalIndex" : 74,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T18:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T18:15",
+  "to" : "2026-01-01T18:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "18:15 - 18:30",
+      "intervalIndex" : 74,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T19:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T17:00",
+  "to" : "2026-01-01T19:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "17:15 - 17:30",
+      "intervalIndex" : 70,
+      "priceAmount" : 205.5
+    }, {
+      "interval" : "18:15 - 18:30",
+      "intervalIndex" : 74,
+      "priceAmount" : 0.0
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2026-01-01T19:30",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE_PREDICTION",
+  "date" : "2026-01-01",
+  "interval" : "19:15 - 19:30",
+  "intervalIndex" : 78,
+  "message" : "PredictedPriceEurMwh -500.01 is outside the market range [-500, 4000] EUR/MWh; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T19:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T18:00",
+  "to" : "2026-01-01T19:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "18:15 - 18:30",
+      "intervalIndex" : 74,
+      "priceAmount" : 0.0
+    }, {
+      "interval" : "19:15 - 19:30",
+      "intervalIndex" : 78,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T19:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T17:30",
+  "to" : "2026-01-01T19:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "18:15 - 18:30",
+      "intervalIndex" : 74,
+      "priceAmount" : 0.0
+    }, {
+      "interval" : "19:15 - 19:30",
+      "intervalIndex" : 78,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T19:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T19:15",
+  "to" : "2026-01-01T19:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T19:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T19:15",
+  "to" : "2026-01-01T19:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "19:15 - 19:30",
+      "intervalIndex" : 78,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T19:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T19:15",
+  "to" : "2026-01-01T19:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "19:15 - 19:30",
+      "intervalIndex" : 78,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T19:30",
+  "status" : "ERROR",
+  "from" : "2026-01-01T19:15",
+  "to" : "2026-01-01T19:30",
+  "message" : "Access denied: DAM_PRICE_PREDICTION requires PREMIUM subscription."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T20:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T18:00",
+  "to" : "2026-01-01T20:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "18:15 - 18:30",
+      "intervalIndex" : 74,
+      "priceAmount" : 0.0
+    }, {
+      "interval" : "19:15 - 19:30",
+      "intervalIndex" : 78,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T20:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T20:15",
+  "to" : "2026-01-01T20:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "patch",
+  "timestamp" : "2026-01-01T20:30",
+  "status" : "WARNING",
+  "id" : "IMBALANCE_VOLUME",
+  "date" : "2026-01-01",
+  "interval" : "20:15 - 20:30",
+  "intervalIndex" : 82,
+  "message" : "PositiveImbalanceVol is null; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T20:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T18:15",
+  "to" : "2026-01-01T19:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "18:15 - 18:30",
+      "intervalIndex" : 74,
+      "positiveImbalanceVol" : 25.5,
+      "negativeImbalanceVol" : 12.25
+    }, {
+      "interval" : "19:15 - 19:30",
+      "intervalIndex" : 78,
+      "positiveImbalanceVol" : 25.5,
+      "negativeImbalanceVol" : 12.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T20:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T20:15",
+  "to" : "2026-01-01T20:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "20:15 - 20:30",
+      "intervalIndex" : 82,
+      "positiveImbalanceVol" : 25.5,
+      "negativeImbalanceVol" : 12.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T20:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T20:15",
+  "to" : "2026-01-01T20:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "20:15 - 20:30",
+      "intervalIndex" : 82,
+      "positiveImbalanceVol" : 25.5,
+      "negativeImbalanceVol" : 12.25
+    } ]
+  } ]
+}, {
+  "command" : "patch",
+  "timestamp" : "2026-01-01T20:30",
+  "status" : "WARNING",
+  "id" : "IMBALANCE_VOLUME",
+  "date" : "2026-01-01",
+  "interval" : "20:15 - 20:30",
+  "intervalIndex" : 82,
+  "message" : "NegativeImbalanceVol -0.01 is below the minimum allowed value 0; interval skipped."
+}, {
+  "command" : "patch",
+  "timestamp" : "2026-01-01T20:30",
+  "status" : "WARNING",
+  "id" : "IMBALANCE_VOLUME",
+  "date" : "2026-01-01",
+  "interval" : "18:15 - 18:30",
+  "intervalIndex" : 74,
+  "message" : "NegativeImbalanceVol -0.01 is below the minimum allowed value 0; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T20:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T18:15",
+  "to" : "2026-01-01T20:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "18:15 - 18:30",
+      "intervalIndex" : 74,
+      "positiveImbalanceVol" : 25.5,
+      "negativeImbalanceVol" : 12.25
+    }, {
+      "interval" : "19:15 - 19:30",
+      "intervalIndex" : 78,
+      "positiveImbalanceVol" : 25.5,
+      "negativeImbalanceVol" : 12.25
+    }, {
+      "interval" : "20:15 - 20:30",
+      "intervalIndex" : 82,
+      "positiveImbalanceVol" : 25.5,
+      "negativeImbalanceVol" : 12.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T20:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T18:15",
+  "to" : "2026-01-01T19:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "18:15 - 18:30",
+      "intervalIndex" : 74,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    }, {
+      "interval" : "19:15 - 19:30",
+      "intervalIndex" : 78,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2026-01-01T20:30",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD_PREDICTION",
+  "date" : "2026-01-01",
+  "interval" : "20:15 - 20:30",
+  "intervalIndex" : 82,
+  "message" : "ReservesRequiredMW is null; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T20:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T20:15",
+  "to" : "2026-01-01T20:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "20:15 - 20:30",
+      "intervalIndex" : 82,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T20:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T19:00",
+  "to" : "2026-01-01T20:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "19:15 - 19:30",
+      "intervalIndex" : 78,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "20:15 - 20:30",
+      "intervalIndex" : 82,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T20:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T18:30",
+  "to" : "2026-01-01T20:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "19:15 - 19:30",
+      "intervalIndex" : 78,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "20:15 - 20:30",
+      "intervalIndex" : 82,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T20:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T20:15",
+  "to" : "2026-01-01T20:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "20:15 - 20:30",
+      "intervalIndex" : 82,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T20:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T20:15",
+  "to" : "2026-01-01T20:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T20:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T20:15",
+  "to" : "2026-01-01T20:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "20:15 - 20:30",
+      "intervalIndex" : 82,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T20:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T20:15",
+  "to" : "2026-01-01T20:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "20:15 - 20:30",
+      "intervalIndex" : 82,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T21:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T19:00",
+  "to" : "2026-01-01T21:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "19:15 - 19:30",
+      "intervalIndex" : 78,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "20:15 - 20:30",
+      "intervalIndex" : 82,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2026-01-01T21:30",
+  "status" : "WARNING",
+  "id" : "GRID_LOAD",
+  "date" : "2026-01-01",
+  "interval" : "21:15 - 21:30",
+  "intervalIndex" : 86,
+  "message" : "Quantity is null; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T21:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T20:00",
+  "to" : "2026-01-01T21:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "20:15 - 20:30",
+      "intervalIndex" : 82,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "21:15 - 21:30",
+      "intervalIndex" : 86,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T21:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T19:30",
+  "to" : "2026-01-01T21:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "20:15 - 20:30",
+      "intervalIndex" : 82,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "21:15 - 21:30",
+      "intervalIndex" : 86,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T21:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T21:15",
+  "to" : "2026-01-01T21:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "21:15 - 21:30",
+      "intervalIndex" : 86,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T21:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T21:15",
+  "to" : "2026-01-01T21:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T21:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T21:15",
+  "to" : "2026-01-01T21:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "21:15 - 21:30",
+      "intervalIndex" : 86,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T21:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T21:15",
+  "to" : "2026-01-01T21:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "21:15 - 21:30",
+      "intervalIndex" : 86,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T21:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T21:15",
+  "to" : "2026-01-01T21:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T21:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T21:00",
+  "to" : "2026-01-01T21:45",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T21:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T21:00",
+  "to" : "2026-01-01T21:45",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "21:15 - 21:30",
+      "intervalIndex" : 86,
+      "quantity" : 6400.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T22:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T20:00",
+  "to" : "2026-01-01T22:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "20:15 - 20:30",
+      "intervalIndex" : 82,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "21:15 - 21:30",
+      "intervalIndex" : 86,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2026-01-01T22:30",
+  "status" : "WARNING",
+  "id" : "IMBALANCE_PRICE",
+  "date" : "2026-01-01",
+  "interval" : "22:15 - 22:30",
+  "intervalIndex" : 90,
+  "message" : "NegativeImbalancePrice is null; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T22:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T21:00",
+  "to" : "2026-01-01T22:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "21:15 - 21:30",
+      "intervalIndex" : 86,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "22:15 - 22:30",
+      "intervalIndex" : 90,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T22:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T20:30",
+  "to" : "2026-01-01T22:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "21:15 - 21:30",
+      "intervalIndex" : 86,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "22:15 - 22:30",
+      "intervalIndex" : 90,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T22:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T22:15",
+  "to" : "2026-01-01T22:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "22:15 - 22:30",
+      "intervalIndex" : 90,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T22:30",
+  "status" : "WARNING",
+  "from" : "2026-01-01T22:15",
+  "to" : "2026-01-01T22:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T22:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T22:15",
+  "to" : "2026-01-01T22:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "22:15 - 22:30",
+      "intervalIndex" : 90,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T23:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T21:00",
+  "to" : "2026-01-01T23:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "21:15 - 21:30",
+      "intervalIndex" : 86,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "22:15 - 22:30",
+      "intervalIndex" : 90,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T23:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T23:15",
+  "to" : "2026-01-01T23:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "23:15 - 23:30",
+      "intervalIndex" : 94,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T23:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T23:15",
+  "to" : "2026-01-01T23:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "23:15 - 23:30",
+      "intervalIndex" : 94,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T23:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T23:15",
+  "to" : "2026-01-01T23:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "23:15 - 23:30",
+      "intervalIndex" : 94,
+      "positiveImbalanceVol" : 0.01,
+      "negativeImbalanceVol" : 0.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T23:30",
+  "status" : "ERROR",
+  "from" : "2026-01-01T23:15",
+  "to" : "2026-01-01T23:30",
+  "message" : "Access denied: DAM_PRICE_PREDICTION requires PREMIUM subscription."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T23:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T23:00",
+  "to" : "2026-01-01T23:45",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "23:15 - 23:30",
+      "intervalIndex" : 94,
+      "priceAmount" : 123.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T23:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T23:00",
+  "to" : "2026-01-01T23:45",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "23:15 - 23:30",
+      "intervalIndex" : 94,
+      "priceAmount" : 205.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T23:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T22:00",
+  "to" : "2026-01-01T23:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "22:15 - 22:30",
+      "intervalIndex" : 90,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "23:15 - 23:30",
+      "intervalIndex" : 94,
+      "priceAmount" : 205.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-01T23:30",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T21:30",
+  "to" : "2026-01-01T23:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "22:15 - 22:30",
+      "intervalIndex" : 90,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "23:15 - 23:30",
+      "intervalIndex" : 94,
+      "priceAmount" : 205.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-02T00:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T23:00",
+  "to" : "2026-01-02T00:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "23:15 - 23:30",
+      "intervalIndex" : 94,
+      "priceAmount" : 205.5
+    }, {
+      "interval" : "23:45 - 00:00",
+      "intervalIndex" : 96,
+      "priceAmount" : 78.97
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-02T00:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T22:30",
+  "to" : "2026-01-02T00:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "23:15 - 23:30",
+      "intervalIndex" : 94,
+      "priceAmount" : 205.5
+    }, {
+      "interval" : "23:45 - 00:00",
+      "intervalIndex" : 96,
+      "priceAmount" : 78.97
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-02T00:00",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T22:00",
+  "to" : "2026-01-02T00:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "22:15 - 22:30",
+      "intervalIndex" : 90,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "23:15 - 23:30",
+      "intervalIndex" : 94,
+      "priceAmount" : 205.5
+    }, {
+      "interval" : "23:45 - 00:00",
+      "intervalIndex" : 96,
+      "priceAmount" : 78.97
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-02T00:15",
+  "status" : "WARNING",
+  "from" : "2026-01-02T00:00",
+  "to" : "2026-01-02T00:15",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-02T00:31",
+  "status" : "SUCCESS",
+  "from" : "2026-01-02T00:15",
+  "to" : "2026-01-02T00:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-02",
+    "data" : [ {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "priceAmount" : 82.79
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-02T00:31",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T23:15",
+  "to" : "2026-01-01T23:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "23:15 - 23:30",
+      "intervalIndex" : 94,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-02T00:31",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T23:15",
+  "to" : "2026-01-01T23:30",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "23:15 - 23:30",
+      "intervalIndex" : 94,
+      "quantity" : 6200.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-02T00:31",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T23:15",
+  "to" : "2026-01-01T23:30",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "23:15 - 23:30",
+      "intervalIndex" : 94,
+      "quantity" : 6000.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-02T00:31",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T23:15",
+  "to" : "2026-01-01T23:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "23:15 - 23:30",
+      "intervalIndex" : 94,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-02T00:31",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T23:15",
+  "to" : "2026-01-01T23:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "23:15 - 23:30",
+      "intervalIndex" : 94,
+      "positiveImbalanceVol" : 0.01,
+      "negativeImbalanceVol" : 0.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-02T00:31",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T00:00",
+  "to" : "2026-01-02T00:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "priceAmount" : 92.04
+    }, {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "priceAmount" : 205.5
+    }, {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "02:15 - 02:30",
+      "intervalIndex" : 10,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "priceAmount" : 205.5
+    }, {
+      "interval" : "06:15 - 06:30",
+      "intervalIndex" : 26,
+      "priceAmount" : 4000.0
+    }, {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "08:15 - 08:30",
+      "intervalIndex" : 34,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "09:15 - 09:30",
+      "intervalIndex" : 38,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "10:15 - 10:30",
+      "intervalIndex" : 42,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "11:15 - 11:30",
+      "intervalIndex" : 46,
+      "priceAmount" : 205.5
+    }, {
+      "interval" : "12:15 - 12:30",
+      "intervalIndex" : 50,
+      "priceAmount" : 205.5
+    }, {
+      "interval" : "13:15 - 13:30",
+      "intervalIndex" : 54,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "14:15 - 14:30",
+      "intervalIndex" : 58,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "15:15 - 15:30",
+      "intervalIndex" : 62,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "16:15 - 16:30",
+      "intervalIndex" : 66,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "17:15 - 17:30",
+      "intervalIndex" : 70,
+      "priceAmount" : 205.5
+    }, {
+      "interval" : "18:15 - 18:30",
+      "intervalIndex" : 74,
+      "priceAmount" : 0.0
+    }, {
+      "interval" : "19:15 - 19:30",
+      "intervalIndex" : 78,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "20:15 - 20:30",
+      "intervalIndex" : 82,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "21:15 - 21:30",
+      "intervalIndex" : 86,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "22:15 - 22:30",
+      "intervalIndex" : 90,
+      "priceAmount" : 123.25
+    }, {
+      "interval" : "23:15 - 23:30",
+      "intervalIndex" : 94,
+      "priceAmount" : 205.5
+    }, {
+      "interval" : "23:45 - 00:00",
+      "intervalIndex" : 96,
+      "priceAmount" : 78.97
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-02T00:31",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T00:15",
+  "to" : "2026-01-01T23:30",
+  "data" : [ {
+    "id" : "DAM_PRICE_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "02:15 - 02:30",
+      "intervalIndex" : 10,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "06:15 - 06:30",
+      "intervalIndex" : 26,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "predictedPriceEurMwh" : 4000.0,
+      "spikeProbability" : 1.0
+    }, {
+      "interval" : "08:15 - 08:30",
+      "intervalIndex" : 34,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "09:15 - 09:30",
+      "intervalIndex" : 38,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "10:15 - 10:30",
+      "intervalIndex" : 42,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "11:15 - 11:30",
+      "intervalIndex" : 46,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "12:15 - 12:30",
+      "intervalIndex" : 50,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "14:15 - 14:30",
+      "intervalIndex" : 58,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "15:15 - 15:30",
+      "intervalIndex" : 62,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "16:15 - 16:30",
+      "intervalIndex" : 66,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "17:15 - 17:30",
+      "intervalIndex" : 70,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "18:15 - 18:30",
+      "intervalIndex" : 74,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "20:15 - 20:30",
+      "intervalIndex" : 82,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "21:15 - 21:30",
+      "intervalIndex" : 86,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "22:15 - 22:30",
+      "intervalIndex" : 90,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    }, {
+      "interval" : "23:15 - 23:30",
+      "intervalIndex" : 94,
+      "predictedPriceEurMwh" : 125.5,
+      "spikeProbability" : 0.35
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-02T00:31",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T00:15",
+  "to" : "2026-01-01T23:30",
+  "data" : [ {
+    "id" : "GRID_LOAD_PREDICTION",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "quantity" : 6200.25
+    }, {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "quantity" : 6200.25
+    }, {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "quantity" : 6200.25
+    }, {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "quantity" : 6200.25
+    }, {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "quantity" : 6200.25
+    }, {
+      "interval" : "06:15 - 06:30",
+      "intervalIndex" : 26,
+      "quantity" : 6200.25
+    }, {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "quantity" : 6200.25
+    }, {
+      "interval" : "09:15 - 09:30",
+      "intervalIndex" : 38,
+      "quantity" : 6200.25
+    }, {
+      "interval" : "10:15 - 10:30",
+      "intervalIndex" : 42,
+      "quantity" : 6200.25
+    }, {
+      "interval" : "11:15 - 11:30",
+      "intervalIndex" : 46,
+      "quantity" : 6200.25
+    }, {
+      "interval" : "12:15 - 12:30",
+      "intervalIndex" : 50,
+      "quantity" : 6200.25
+    }, {
+      "interval" : "13:15 - 13:30",
+      "intervalIndex" : 54,
+      "quantity" : 6200.25
+    }, {
+      "interval" : "15:15 - 15:30",
+      "intervalIndex" : 62,
+      "quantity" : 6200.25
+    }, {
+      "interval" : "16:15 - 16:30",
+      "intervalIndex" : 66,
+      "quantity" : 6200.25
+    }, {
+      "interval" : "17:15 - 17:30",
+      "intervalIndex" : 70,
+      "quantity" : 6200.25
+    }, {
+      "interval" : "18:15 - 18:30",
+      "intervalIndex" : 74,
+      "quantity" : 6200.25
+    }, {
+      "interval" : "19:15 - 19:30",
+      "intervalIndex" : 78,
+      "quantity" : 6200.25
+    }, {
+      "interval" : "21:15 - 21:30",
+      "intervalIndex" : 86,
+      "quantity" : 6200.25
+    }, {
+      "interval" : "22:15 - 22:30",
+      "intervalIndex" : 90,
+      "quantity" : 6200.25
+    }, {
+      "interval" : "23:15 - 23:30",
+      "intervalIndex" : 94,
+      "quantity" : 6200.25
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-02T00:31",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T00:15",
+  "to" : "2026-01-01T23:30",
+  "data" : [ {
+    "id" : "GRID_LOAD",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "quantity" : 6000.0
+    }, {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "quantity" : 6000.0
+    }, {
+      "interval" : "02:15 - 02:30",
+      "intervalIndex" : 10,
+      "quantity" : 6000.0
+    }, {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "quantity" : 6400.0
+    }, {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "quantity" : 6000.0
+    }, {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "quantity" : 6000.0
+    }, {
+      "interval" : "06:15 - 06:30",
+      "intervalIndex" : 26,
+      "quantity" : 6000.0
+    }, {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "quantity" : 6000.0
+    }, {
+      "interval" : "08:15 - 08:30",
+      "intervalIndex" : 34,
+      "quantity" : 6000.0
+    }, {
+      "interval" : "09:15 - 09:30",
+      "intervalIndex" : 38,
+      "quantity" : 6400.0
+    }, {
+      "interval" : "10:15 - 10:30",
+      "intervalIndex" : 42,
+      "quantity" : 6000.0
+    }, {
+      "interval" : "11:15 - 11:30",
+      "intervalIndex" : 46,
+      "quantity" : 6000.0
+    }, {
+      "interval" : "12:15 - 12:30",
+      "intervalIndex" : 50,
+      "quantity" : 6000.0
+    }, {
+      "interval" : "13:15 - 13:30",
+      "intervalIndex" : 54,
+      "quantity" : 6000.0
+    }, {
+      "interval" : "14:15 - 14:30",
+      "intervalIndex" : 58,
+      "quantity" : 6000.0
+    }, {
+      "interval" : "15:15 - 15:30",
+      "intervalIndex" : 62,
+      "quantity" : 6000.25
+    }, {
+      "interval" : "16:15 - 16:30",
+      "intervalIndex" : 66,
+      "quantity" : 6000.0
+    }, {
+      "interval" : "17:00 - 17:15",
+      "intervalIndex" : 69,
+      "quantity" : 6000.0
+    }, {
+      "interval" : "17:15 - 17:30",
+      "intervalIndex" : 70,
+      "quantity" : 16000.0
+    }, {
+      "interval" : "17:30 - 17:45",
+      "intervalIndex" : 71,
+      "quantity" : 6000.0
+    }, {
+      "interval" : "18:00 - 18:15",
+      "intervalIndex" : 73,
+      "quantity" : 16000.0
+    }, {
+      "interval" : "18:30 - 18:45",
+      "intervalIndex" : 75,
+      "quantity" : 6000.0
+    }, {
+      "interval" : "18:45 - 19:00",
+      "intervalIndex" : 76,
+      "quantity" : 6020.0
+    }, {
+      "interval" : "19:15 - 19:30",
+      "intervalIndex" : 78,
+      "quantity" : 6000.0
+    }, {
+      "interval" : "20:15 - 20:30",
+      "intervalIndex" : 82,
+      "quantity" : 6000.0
+    }, {
+      "interval" : "21:15 - 21:30",
+      "intervalIndex" : 86,
+      "quantity" : 6400.0
+    }, {
+      "interval" : "22:15 - 22:30",
+      "intervalIndex" : 90,
+      "quantity" : 6000.0
+    }, {
+      "interval" : "23:15 - 23:30",
+      "intervalIndex" : 94,
+      "quantity" : 6000.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-02T00:31",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T00:15",
+  "to" : "2026-01-01T23:30",
+  "data" : [ {
+    "id" : "IMBALANCE_PRICE",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    }, {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    }, {
+      "interval" : "02:15 - 02:30",
+      "intervalIndex" : 10,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    }, {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    }, {
+      "interval" : "05:15 - 05:30",
+      "intervalIndex" : 22,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    }, {
+      "interval" : "06:15 - 06:30",
+      "intervalIndex" : 26,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    }, {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    }, {
+      "interval" : "08:15 - 08:30",
+      "intervalIndex" : 34,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    }, {
+      "interval" : "09:15 - 09:30",
+      "intervalIndex" : 38,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    }, {
+      "interval" : "11:15 - 11:30",
+      "intervalIndex" : 46,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    }, {
+      "interval" : "12:15 - 12:30",
+      "intervalIndex" : 50,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    }, {
+      "interval" : "13:15 - 13:30",
+      "intervalIndex" : 54,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    }, {
+      "interval" : "14:15 - 14:30",
+      "intervalIndex" : 58,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    }, {
+      "interval" : "15:15 - 15:30",
+      "intervalIndex" : 62,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    }, {
+      "interval" : "17:15 - 17:30",
+      "intervalIndex" : 70,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    }, {
+      "interval" : "18:15 - 18:30",
+      "intervalIndex" : 74,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    }, {
+      "interval" : "19:15 - 19:30",
+      "intervalIndex" : 78,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    }, {
+      "interval" : "20:15 - 20:30",
+      "intervalIndex" : 82,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    }, {
+      "interval" : "21:15 - 21:30",
+      "intervalIndex" : 86,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    }, {
+      "interval" : "23:15 - 23:30",
+      "intervalIndex" : 94,
+      "positiveImbalancePrice" : 145.25,
+      "negativeImbalancePrice" : 155.5
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2026-01-02T00:31",
+  "status" : "SUCCESS",
+  "from" : "2026-01-01T00:15",
+  "to" : "2026-01-01T23:30",
+  "data" : [ {
+    "id" : "IMBALANCE_VOLUME",
+    "date" : "2026-01-01",
+    "data" : [ {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    }, {
+      "interval" : "01:15 - 01:30",
+      "intervalIndex" : 6,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    }, {
+      "interval" : "02:15 - 02:30",
+      "intervalIndex" : 10,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    }, {
+      "interval" : "03:15 - 03:30",
+      "intervalIndex" : 14,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    }, {
+      "interval" : "04:15 - 04:30",
+      "intervalIndex" : 18,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    }, {
+      "interval" : "06:15 - 06:30",
+      "intervalIndex" : 26,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    }, {
+      "interval" : "07:15 - 07:30",
+      "intervalIndex" : 30,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    }, {
+      "interval" : "08:15 - 08:30",
+      "intervalIndex" : 34,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    }, {
+      "interval" : "09:15 - 09:30",
+      "intervalIndex" : 38,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    }, {
+      "interval" : "10:15 - 10:30",
+      "intervalIndex" : 42,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    }, {
+      "interval" : "12:15 - 12:30",
+      "intervalIndex" : 50,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    }, {
+      "interval" : "13:15 - 13:30",
+      "intervalIndex" : 54,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    }, {
+      "interval" : "14:15 - 14:30",
+      "intervalIndex" : 58,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    }, {
+      "interval" : "15:15 - 15:30",
+      "intervalIndex" : 62,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    }, {
+      "interval" : "16:15 - 16:30",
+      "intervalIndex" : 66,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    }, {
+      "interval" : "18:15 - 18:30",
+      "intervalIndex" : 74,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    }, {
+      "interval" : "19:15 - 19:30",
+      "intervalIndex" : 78,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    }, {
+      "interval" : "20:15 - 20:30",
+      "intervalIndex" : 82,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    }, {
+      "interval" : "21:15 - 21:30",
+      "intervalIndex" : 86,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    }, {
+      "interval" : "22:15 - 22:30",
+      "intervalIndex" : 90,
+      "positiveImbalanceVol" : 12.5,
+      "negativeImbalanceVol" : 8.25
+    }, {
+      "interval" : "23:15 - 23:30",
+      "intervalIndex" : 94,
+      "positiveImbalanceVol" : 0.01,
+      "negativeImbalanceVol" : 0.25
+    } ]
+  } ]
+} ]

@@ -1,0 +1,816 @@
+{
+  "commands": [
+    {
+      "command": "startImport",
+      "timestamp": "2025-02-13T00:00"
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-02-13T00:15",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "00:00 - 00:15",
+            "quantity": 6520.0,
+            "reservesRequiredMW": 160.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-02-13",
+            "interval": "00:00 - 00:15",
+            "priceAmount": 91.5
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "00:00 - 00:15",
+            "predictedPriceEurMwh": 93.3,
+            "spikeProbability": 0.18
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T00:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "target": "2025-02-13T00:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-02-13T00:45",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "00:30 - 00:45",
+            "quantity": -480.0,
+            "reservesRequiredMW": 180.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-02-13",
+            "interval": "00:30 - 00:45",
+            "priceAmount": 94.5
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "00:30 - 00:45",
+            "predictedPriceEurMwh": 95.9,
+            "spikeProbability": 0.34
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T00:45",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "target": "2025-02-13T00:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T01:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2025-02-13T00:00",
+        "end": "2025-02-13T01:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T01:00",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2025-02-13T00:00",
+        "end": "2025-02-13T01:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T01:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "start": "2025-02-13T00:00",
+        "end": "2025-02-13T01:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-02-13T01:15",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "01:00 - 01:15",
+            "quantity": 6600.0,
+            "reservesRequiredMW": 0.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-02-13",
+            "interval": "01:00 - 01:15",
+            "priceAmount": -500.0
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "01:00 - 01:15",
+            "predictedPriceEurMwh": -500.0,
+            "spikeProbability": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T01:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "target": "2025-02-13T01:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T01:15",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2025-02-13T01:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T01:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2025-02-13T00:30",
+        "end": "2025-02-13T01:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T01:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2025-02-13T00:30",
+        "end": "2025-02-13T01:30"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-02-13T01:45",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "01:30 - 01:45",
+            "quantity": 6640.0,
+            "reservesRequiredMW": -160.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-02-13",
+            "interval": "01:30 - 01:45",
+            "priceAmount": 100.5
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "01:30 - 01:45",
+            "predictedPriceEurMwh": 101.1,
+            "spikeProbability": 0.18
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T01:45",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "target": "2025-02-13T01:30"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-02-13T02:00",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "01:45 - 02:00",
+            "quantity": 0.0,
+            "reservesRequiredMW": 0.01
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-02-13",
+            "interval": "01:45 - 02:00",
+            "priceAmount": 102.0
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "01:45 - 02:00",
+            "predictedPriceEurMwh": 102.4,
+            "spikeProbability": 0.26
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T02:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2025-02-13T01:00",
+        "end": "2025-02-13T02:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T02:00",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2025-02-13T01:00",
+        "end": "2025-02-13T02:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T02:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "start": "2025-02-13T01:00",
+        "end": "2025-02-13T02:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-02-13T02:15",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "02:00 - 02:15",
+            "quantity": 6680.0,
+            "reservesRequiredMW": null
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-02-13",
+            "interval": "02:00 - 02:15",
+            "priceAmount": 103.5
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "02:00 - 02:15",
+            "predictedPriceEurMwh": 103.7,
+            "spikeProbability": 0.34
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T02:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2025-02-13T01:30",
+        "end": "2025-02-13T02:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T02:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2025-02-13T01:30",
+        "end": "2025-02-13T02:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T02:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "start": "2025-02-13T01:30",
+        "end": "2025-02-13T02:30"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-02-13T02:45",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "02:30 - 02:45",
+            "quantity": 6720.0,
+            "reservesRequiredMW": 160.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-02-13",
+            "interval": "02:30 - 02:45",
+            "priceAmount": -680.0
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "02:30 - 02:45",
+            "predictedPriceEurMwh": null,
+            "spikeProbability": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-02-13T03:00",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "02:45 - 03:00",
+            "quantity": 6740.0,
+            "reservesRequiredMW": 170.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-02-13",
+            "interval": "02:45 - 03:00",
+            "priceAmount": -500.01
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "02:45 - 03:00",
+            "predictedPriceEurMwh": 107.6,
+            "spikeProbability": 0.1
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T03:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2025-02-13T02:00",
+        "end": "2025-02-13T03:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T03:00",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2025-02-13T02:00",
+        "end": "2025-02-13T03:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T03:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "start": "2025-02-13T02:00",
+        "end": "2025-02-13T03:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-02-13T03:15",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "03:00 - 03:15",
+            "quantity": 6760.0,
+            "reservesRequiredMW": 180.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-02-13",
+            "interval": "03:00 - 03:15",
+            "priceAmount": 4600.0
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "03:00 - 03:15",
+            "predictedPriceEurMwh": 108.9,
+            "spikeProbability": 0.18
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T03:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "target": "2025-02-13T03:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T03:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2025-02-13T02:30",
+        "end": "2025-02-13T03:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T03:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "start": "2025-02-13T02:30",
+        "end": "2025-02-13T03:30"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-02-13T03:45",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "03:30 - 03:45",
+            "quantity": null,
+            "reservesRequiredMW": 200.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-02-13",
+            "interval": "03:30 - 03:45",
+            "priceAmount": null
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "03:30 - 03:45",
+            "predictedPriceEurMwh": 111.5,
+            "spikeProbability": 0.34
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T03:45",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2025-02-13T03:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T04:00",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2025-02-13T03:00",
+        "end": "2025-02-13T04:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T04:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "start": "2025-02-13T03:00",
+        "end": "2025-02-13T04:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-02-13T04:15",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "04:00 - 04:15",
+            "quantity": 6840.0,
+            "reservesRequiredMW": 220.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-02-13",
+            "interval": "04:00 - 04:15",
+            "priceAmount": 115.5
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "04:00 - 04:15",
+            "predictedPriceEurMwh": 114.1,
+            "spikeProbability": -0.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T04:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2025-02-13T04:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T04:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2025-02-13T03:30",
+        "end": "2025-02-13T04:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T04:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2025-02-13T03:30",
+        "end": "2025-02-13T04:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T04:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "start": "2025-02-13T03:30",
+        "end": "2025-02-13T04:30"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-02-13T04:45",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "04:30 - 04:45",
+            "quantity": 6880.0,
+            "reservesRequiredMW": 240.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-02-13",
+            "interval": "04:30 - 04:45",
+            "priceAmount": 118.5
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "04:30 - 04:45",
+            "predictedPriceEurMwh": 116.7,
+            "spikeProbability": 1.65
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T04:45",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2025-02-13T04:30"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-02-13T05:00",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "04:45 - 05:00",
+            "quantity": 6900.0,
+            "reservesRequiredMW": 150.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-02-13",
+            "interval": "04:45 - 05:00",
+            "priceAmount": 120.0
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "04:45 - 05:00",
+            "predictedPriceEurMwh": 4000.0,
+            "spikeProbability": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T05:00",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2025-02-13T04:45"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T05:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2025-02-13T04:00",
+        "end": "2025-02-13T05:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T05:00",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2025-02-13T04:00",
+        "end": "2025-02-13T05:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T05:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "start": "2025-02-13T04:00",
+        "end": "2025-02-13T05:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-02-13T05:15",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "05:00 - 05:15",
+            "quantity": -0.01,
+            "reservesRequiredMW": 160.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-02-13",
+            "interval": "05:00 - 05:15",
+            "priceAmount": 4000.0
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "05:00 - 05:15",
+            "predictedPriceEurMwh": 119.3,
+            "spikeProbability": null
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T05:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2025-02-13T04:30",
+        "end": "2025-02-13T05:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T05:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2025-02-13T04:30",
+        "end": "2025-02-13T05:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-02-13T05:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "start": "2025-02-13T04:30",
+        "end": "2025-02-13T05:30"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-02-13T06:45",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "06:30 - 06:45",
+            "quantity": 7040.0,
+            "reservesRequiredMW": 0.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-02-13",
+            "interval": "06:30 - 06:45",
+            "priceAmount": null
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "06:30 - 06:45",
+            "predictedPriceEurMwh": 127.1,
+            "spikeProbability": 1.0001
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-02-13T07:15",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "07:00 - 07:15",
+            "quantity": 7080.0,
+            "reservesRequiredMW": 240.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-02-13",
+            "interval": "07:00 - 07:15",
+            "priceAmount": 93.5
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-02-13",
+            "interval": "07:00 - 07:15",
+            "predictedPriceEurMwh": 129.7,
+            "spikeProbability": 0.5
+          }
+        ]
+      }
+    }
+  ]
+}

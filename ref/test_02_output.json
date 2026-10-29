@@ -1,0 +1,132 @@
+[ {
+  "command" : "get",
+  "timestamp" : "2025-10-15T00:15",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:00",
+  "to" : "2025-10-15T00:15",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "priceAmount" : 115.96
+    } ]
+  } ]
+}, {
+  "command" : "import",
+  "timestamp" : "2025-10-15T01:00",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE",
+  "date" : "2025-10-15",
+  "interval" : "00:30 - 00:45",
+  "intervalIndex" : 3,
+  "message" : "PriceAmount is null; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:00",
+  "status" : "WARNING",
+  "from" : "2025-10-15T00:30",
+  "to" : "2025-10-15T00:45",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:00",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:15",
+  "to" : "2025-10-15T00:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "priceAmount" : -500.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:00",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:15",
+  "to" : "2025-10-15T01:00",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "priceAmount" : -500.0
+    }, {
+      "interval" : "00:45 - 01:00",
+      "intervalIndex" : 4,
+      "priceAmount" : 4000.0
+    } ]
+  } ]
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:00",
+  "status" : "WARNING",
+  "from" : "2025-10-15T00:30",
+  "to" : "2025-10-15T00:45",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "import",
+  "timestamp" : "2025-10-15T01:15",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE",
+  "date" : "2025-10-15",
+  "interval" : "01:00 - 01:15",
+  "intervalIndex" : 5,
+  "message" : "PriceAmount -850.0 is outside the market range [-500, 4000] EUR/MWh; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:15",
+  "status" : "WARNING",
+  "from" : "2025-10-15T01:00",
+  "to" : "2025-10-15T01:15",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "import",
+  "timestamp" : "2025-10-15T01:30",
+  "status" : "WARNING",
+  "id" : "DAM_PRICE",
+  "date" : "2025-10-15",
+  "interval" : "01:15 - 01:30",
+  "intervalIndex" : 6,
+  "message" : "PriceAmount 6200.0 is outside the market range [-500, 4000] EUR/MWh; interval skipped."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:30",
+  "status" : "WARNING",
+  "from" : "2025-10-15T01:15",
+  "to" : "2025-10-15T01:30",
+  "data" : null,
+  "message" : "Data is not yet available. Try again later."
+}, {
+  "command" : "get",
+  "timestamp" : "2025-10-15T01:30",
+  "status" : "SUCCESS",
+  "from" : "2025-10-15T00:00",
+  "to" : "2025-10-15T01:30",
+  "data" : [ {
+    "id" : "DAM_PRICE",
+    "date" : "2025-10-15",
+    "data" : [ {
+      "interval" : "00:00 - 00:15",
+      "intervalIndex" : 1,
+      "priceAmount" : 115.96
+    }, {
+      "interval" : "00:15 - 00:30",
+      "intervalIndex" : 2,
+      "priceAmount" : -500.0
+    }, {
+      "interval" : "00:45 - 01:00",
+      "intervalIndex" : 4,
+      "priceAmount" : 4000.0
+    } ]
+  } ]
+} ]

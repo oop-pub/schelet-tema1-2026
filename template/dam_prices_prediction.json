@@ -1,0 +1,490 @@
+{
+  "biddingZoneDomain": "10YRO-TEL------P",
+  "periodStart": "yyyy-MM-ddTHH:mm",
+  "periodEnd": "yyyy-MM-ddTHH:mm",
+  "resolution": "PT15M",
+  "currencyUnit": "EUR",
+  "priceMeasureUnit": "MWH",
+  "points": [
+    {
+      "intervalIndex": 1,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 2,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 3,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 4,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 5,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 6,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 7,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 8,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 9,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 10,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 11,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 12,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 13,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 14,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 15,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 16,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 17,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 18,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 19,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 20,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 21,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 22,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 23,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 24,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 25,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 26,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 27,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 28,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 29,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 30,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 31,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 32,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 33,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 34,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 35,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 36,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 37,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 38,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 39,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 40,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 41,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 42,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 43,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 44,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 45,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 46,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 47,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 48,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 49,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 50,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 51,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 52,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 53,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 54,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 55,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 56,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 57,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 58,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 59,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 60,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 61,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 62,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 63,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 64,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 65,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 66,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 67,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 68,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 69,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 70,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 71,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 72,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 73,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 74,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 75,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 76,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 77,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 78,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 79,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 80,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 81,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 82,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 83,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 84,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 85,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 86,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 87,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 88,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 89,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 90,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 91,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 92,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 93,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 94,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 95,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    },
+    {
+      "intervalIndex": 96,
+      "predictedPriceEurMwh": null,
+      "spikeProbability": null
+    }
+  ]
+}

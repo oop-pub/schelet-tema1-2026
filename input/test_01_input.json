@@ -1,0 +1,130 @@
+{
+  "commands": [
+    {
+      "command": "startImport",
+      "timestamp": "2025-10-15T00:00"
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T00:15",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "00:00-00:15",
+            "priceAmount": 115.96
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T00:17",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "target": "2025-10-15T00:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T00:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "00:15-00:30",
+            "priceAmount": 116.01
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T00:45",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "00:30-00:45",
+            "priceAmount": 105.91
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T00:47",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "target": "2025-10-15T00:15"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T01:00",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "00:45-01:00",
+            "priceAmount": 98.17
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T01:15",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "01:00-01:15",
+            "priceAmount": 107.81
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T01:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "01:15-01:30",
+            "priceAmount": 103.99
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T01:32",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2025-10-15T00:15",
+        "end": "2025-10-15T00:45"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T01:34",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2025-10-15T00:00",
+        "end": "2025-10-15T01:30"
+      }
+    }
+  ]
+}

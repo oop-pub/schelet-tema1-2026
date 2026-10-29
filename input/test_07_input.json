@@ -1,0 +1,1015 @@
+{
+  "commands": [
+    {
+      "command": "startImport",
+      "timestamp": "2025-10-15T00:00"
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T00:15",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "00:00 - 00:15",
+            "quantity": 6020.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "00:00 - 00:15",
+            "quantity": 6118.0,
+            "reservesRequiredMW": 128.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "00:00 - 00:15",
+            "priceAmount": 101.5
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "00:00 - 00:15",
+            "predictedPriceEurMwh": 103.3,
+            "spikeProbability": 0.18
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T01:00",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "00:45 - 01:00",
+            "quantity": 6080.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "00:45 - 01:00",
+            "quantity": 6172.0,
+            "reservesRequiredMW": 152.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "00:45 - 01:00",
+            "priceAmount": 106.0
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "00:45 - 01:00",
+            "predictedPriceEurMwh": 107.2,
+            "spikeProbability": 0.42
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T01:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "start": "2025-10-15T00:00",
+        "end": "2025-10-15T01:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T01:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "start": "2025-10-15T00:00",
+        "end": "2025-10-15T01:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T01:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2025-10-15T00:00",
+        "end": "2025-10-15T01:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T01:00",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2025-10-15T00:00",
+        "end": "2025-10-15T01:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T01:15",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "01:00 - 01:15",
+            "quantity": 6100.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "01:00 - 01:15",
+            "quantity": 6190.0,
+            "reservesRequiredMW": 160.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "01:00 - 01:15",
+            "priceAmount": 107.5
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "01:00 - 01:15",
+            "predictedPriceEurMwh": 108.5,
+            "spikeProbability": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T01:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "target": "2025-10-15T01:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T01:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "target": "2025-10-15T01:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T01:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "target": "2025-10-15T01:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T01:15",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2025-10-15T01:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T01:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "01:15 - 01:30",
+            "quantity": 0.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "01:15 - 01:30",
+            "quantity": 0.0,
+            "reservesRequiredMW": 0.01
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "01:15 - 01:30",
+            "priceAmount": null
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "01:15 - 01:30",
+            "predictedPriceEurMwh": -500.0,
+            "spikeProbability": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T01:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "target": "2025-10-15T01:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T01:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "target": "2025-10-15T01:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T01:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2025-10-15T01:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T01:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "start": "2025-10-15T00:30",
+        "end": "2025-10-15T01:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T01:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "start": "2025-10-15T00:30",
+        "end": "2025-10-15T01:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T01:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2025-10-15T00:30",
+        "end": "2025-10-15T01:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T01:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2025-10-15T00:30",
+        "end": "2025-10-15T01:30"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T01:45",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "01:30 - 01:45",
+            "quantity": 6140.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "01:30 - 01:45",
+            "quantity": 6226.0,
+            "reservesRequiredMW": 176.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "01:30 - 01:45",
+            "priceAmount": -500.0
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "01:30 - 01:45",
+            "predictedPriceEurMwh": 111.1,
+            "spikeProbability": 0.18
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T02:00",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "01:45 - 02:00",
+            "quantity": 6160.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "01:45 - 02:00",
+            "quantity": 6244.0,
+            "reservesRequiredMW": 184.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "01:45 - 02:00",
+            "priceAmount": 112.0
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "01:45 - 02:00",
+            "predictedPriceEurMwh": 112.4,
+            "spikeProbability": 0.26
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "start": "2025-10-15T01:00",
+        "end": "2025-10-15T02:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "start": "2025-10-15T01:00",
+        "end": "2025-10-15T02:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2025-10-15T01:00",
+        "end": "2025-10-15T02:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:00",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2025-10-15T01:00",
+        "end": "2025-10-15T02:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T02:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "02:15 - 02:30",
+            "quantity": 6200.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "02:15 - 02:30",
+            "quantity": 6280.0,
+            "reservesRequiredMW": 120.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "02:15 - 02:30",
+            "priceAmount": 115.0
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "02:15 - 02:30",
+            "predictedPriceEurMwh": 115.0,
+            "spikeProbability": 1.7
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "start": "2025-10-15T01:30",
+        "end": "2025-10-15T02:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "start": "2025-10-15T01:30",
+        "end": "2025-10-15T02:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2025-10-15T01:30",
+        "end": "2025-10-15T02:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2025-10-15T01:30",
+        "end": "2025-10-15T02:30"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T03:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "03:15 - 03:30",
+            "quantity": 6280.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "03:15 - 03:30",
+            "quantity": null,
+            "reservesRequiredMW": 152.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "03:15 - 03:30",
+            "priceAmount": 4750.0
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "03:15 - 03:30",
+            "predictedPriceEurMwh": 120.2,
+            "spikeProbability": 0.26
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T03:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "target": "2025-10-15T03:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T03:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2025-10-15T02:30",
+        "end": "2025-10-15T03:30"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T03:45",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "03:30 - 03:45",
+            "quantity": 6300.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "03:30 - 03:45",
+            "quantity": 6370.0,
+            "reservesRequiredMW": 160.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "03:30 - 03:45",
+            "priceAmount": 122.5
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "03:30 - 03:45",
+            "predictedPriceEurMwh": null,
+            "spikeProbability": 0.34
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T03:45",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2025-10-15T03:30"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T04:00",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "03:45 - 04:00",
+            "quantity": 6320.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "03:45 - 04:00",
+            "quantity": 6388.0,
+            "reservesRequiredMW": 168.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "03:45 - 04:00",
+            "priceAmount": -500.01
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "03:45 - 04:00",
+            "predictedPriceEurMwh": 122.8,
+            "spikeProbability": 0.42
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T04:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "start": "2025-10-15T03:00",
+        "end": "2025-10-15T04:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T04:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "start": "2025-10-15T03:00",
+        "end": "2025-10-15T04:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T04:00",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2025-10-15T03:00",
+        "end": "2025-10-15T04:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T04:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "04:15 - 04:30",
+            "quantity": 6360.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "04:15 - 04:30",
+            "quantity": -380.0,
+            "reservesRequiredMW": 184.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "04:15 - 04:30",
+            "priceAmount": 127.0
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "04:15 - 04:30",
+            "predictedPriceEurMwh": 125.4,
+            "spikeProbability": 0.1
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T04:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "start": "2025-10-15T03:30",
+        "end": "2025-10-15T04:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T04:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "start": "2025-10-15T03:30",
+        "end": "2025-10-15T04:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T04:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2025-10-15T03:30",
+        "end": "2025-10-15T04:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T04:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2025-10-15T03:30",
+        "end": "2025-10-15T04:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T05:00",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2025-10-15T04:00",
+        "end": "2025-10-15T05:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T05:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "05:15 - 05:30",
+            "quantity": 6440.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "05:15 - 05:30",
+            "quantity": 6496.0,
+            "reservesRequiredMW": 0.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "05:15 - 05:30",
+            "priceAmount": 133.0
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "05:15 - 05:30",
+            "predictedPriceEurMwh": 130.6,
+            "spikeProbability": 0.42
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T05:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "target": "2025-10-15T05:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T05:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2025-10-15T04:30",
+        "end": "2025-10-15T05:30"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T05:45",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "05:30 - 05:45",
+            "quantity": 6460.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "05:30 - 05:45",
+            "quantity": 6514.0,
+            "reservesRequiredMW": 144.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "05:30 - 05:45",
+            "priceAmount": 134.5
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "05:30 - 05:45",
+            "predictedPriceEurMwh": 4000.0,
+            "spikeProbability": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T05:45",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2025-10-15T05:30"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T06:00",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "05:45 - 06:00",
+            "quantity": 6480.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "05:45 - 06:00",
+            "quantity": -0.01,
+            "reservesRequiredMW": 152.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "05:45 - 06:00",
+            "priceAmount": 4000.0
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "05:45 - 06:00",
+            "predictedPriceEurMwh": 133.2,
+            "spikeProbability": 0.1
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T06:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "start": "2025-10-15T05:00",
+        "end": "2025-10-15T06:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T06:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "start": "2025-10-15T05:00",
+        "end": "2025-10-15T06:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T06:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2025-10-15T05:00",
+        "end": "2025-10-15T06:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T06:00",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2025-10-15T05:00",
+        "end": "2025-10-15T06:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T06:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "start": "2025-10-15T05:30",
+        "end": "2025-10-15T06:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T06:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2025-10-15T05:30",
+        "end": "2025-10-15T06:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T06:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2025-10-15T05:30",
+        "end": "2025-10-15T06:30"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T08:00",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "07:45 - 08:00",
+            "quantity": 6000.25,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "07:45 - 08:00",
+            "quantity": 6676.0,
+            "reservesRequiredMW": 0.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "07:45 - 08:00",
+            "priceAmount": null
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "07:45 - 08:00",
+            "predictedPriceEurMwh": 143.6,
+            "spikeProbability": 1.0001
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T08:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "target": "2025-10-15T07:45"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T08:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "08:15 - 08:30",
+            "quantity": 6680.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "08:15 - 08:30",
+            "quantity": 6712.0,
+            "reservesRequiredMW": 152.0
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "08:15 - 08:30",
+            "priceAmount": 101.0
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "08:15 - 08:30",
+            "predictedPriceEurMwh": 146.2,
+            "spikeProbability": 0.42
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T08:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2025-10-15T08:15"
+      }
+    }
+  ]
+}

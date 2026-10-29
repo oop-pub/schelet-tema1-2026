@@ -1,0 +1,6035 @@
+{
+  "commands": [
+    {
+      "command": "startImport",
+      "timestamp": "2025-10-15T00:00"
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T00:15",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "00:00 - 00:15",
+            "priceAmount": 101.2
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "00:00 - 00:15",
+            "quantity": 6020.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2025-10-15",
+            "interval": "00:00 - 00:15",
+            "positiveImbalancePrice": 112.0,
+            "negativeImbalancePrice": 121.8
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2025-10-15",
+            "interval": "00:00 - 00:15",
+            "positiveImbalanceVol": 11.5,
+            "negativeImbalanceVol": 6.2
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "00:00 - 00:15",
+            "predictedPriceEurMwh": 106.1,
+            "spikeProbability": 0.18
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "00:00 - 00:15",
+            "quantity": 6118.0,
+            "reservesRequiredMW": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T00:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "00:15 - 00:30",
+            "priceAmount": 102.4
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "00:15 - 00:30",
+            "quantity": 6040.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2025-10-15",
+            "interval": "00:15 - 00:30",
+            "positiveImbalancePrice": 114.0,
+            "negativeImbalancePrice": 123.6
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2025-10-15",
+            "interval": "00:15 - 00:30",
+            "positiveImbalanceVol": 13.0,
+            "negativeImbalanceVol": 7.4
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "00:15 - 00:30",
+            "predictedPriceEurMwh": 107.2,
+            "spikeProbability": 0.26
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "00:15 - 00:30",
+            "quantity": 6136.0,
+            "reservesRequiredMW": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T00:45",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "00:30 - 00:45",
+            "priceAmount": null
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "00:30 - 00:45",
+            "quantity": 6060.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2025-10-15",
+            "interval": "00:30 - 00:45",
+            "positiveImbalancePrice": 116.0,
+            "negativeImbalancePrice": 125.4
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2025-10-15",
+            "interval": "00:30 - 00:45",
+            "positiveImbalanceVol": 14.5,
+            "negativeImbalanceVol": 8.6
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "00:30 - 00:45",
+            "predictedPriceEurMwh": 108.3,
+            "spikeProbability": 0.34
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "00:30 - 00:45",
+            "quantity": 6154.0,
+            "reservesRequiredMW": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T00:45",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "target": "2025-10-15T00:30"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T01:15",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "01:00 - 01:15",
+            "priceAmount": 106.0
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "01:00 - 01:15",
+            "quantity": 6100.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2025-10-15",
+            "interval": "01:00 - 01:15",
+            "positiveImbalancePrice": 120.0,
+            "negativeImbalancePrice": 129.0
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2025-10-15",
+            "interval": "01:00 - 01:15",
+            "positiveImbalanceVol": 17.5,
+            "negativeImbalanceVol": 11.0
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "01:00 - 01:15",
+            "predictedPriceEurMwh": 110.5,
+            "spikeProbability": 1.8
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "01:00 - 01:15",
+            "quantity": 6190.0,
+            "reservesRequiredMW": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T01:15",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2025-10-15T01:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T01:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2025-10-15T01:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T01:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2025-10-15T01:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T01:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "start": "2025-10-15T01:15",
+        "end": "2025-10-15T01:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T01:15",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2025-10-15T01:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T01:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "target": "2025-10-15T01:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T01:45",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "01:30 - 01:45",
+            "priceAmount": 4600.0
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "01:30 - 01:45",
+            "quantity": 6140.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2025-10-15",
+            "interval": "01:30 - 01:45",
+            "positiveImbalancePrice": 124.0,
+            "negativeImbalancePrice": 132.6
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2025-10-15",
+            "interval": "01:30 - 01:45",
+            "positiveImbalanceVol": 20.5,
+            "negativeImbalanceVol": 13.4
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "01:30 - 01:45",
+            "predictedPriceEurMwh": 112.7,
+            "spikeProbability": 0.66
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "01:30 - 01:45",
+            "quantity": 6226.0,
+            "reservesRequiredMW": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T01:45",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "target": "2025-10-15T01:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T01:45",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "target": "2025-10-15T01:30"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T02:00",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "01:45 - 02:00",
+            "priceAmount": 109.6
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "01:45 - 02:00",
+            "quantity": 6160.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2025-10-15",
+            "interval": "01:45 - 02:00",
+            "positiveImbalancePrice": 126.0,
+            "negativeImbalancePrice": 134.4
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2025-10-15",
+            "interval": "01:45 - 02:00",
+            "positiveImbalanceVol": 22.0,
+            "negativeImbalanceVol": 14.6
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "01:45 - 02:00",
+            "predictedPriceEurMwh": 113.8,
+            "spikeProbability": 0.1
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "01:45 - 02:00",
+            "quantity": -420.0,
+            "reservesRequiredMW": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "target": "2025-10-15T01:45"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "target": "2025-10-15T01:45"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "02:00 - 02:15",
+            "priceAmount": 110.8
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "02:00 - 02:15",
+            "quantity": 6180.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2025-10-15",
+            "interval": "02:00 - 02:15",
+            "positiveImbalancePrice": 128.0,
+            "negativeImbalancePrice": 136.2
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2025-10-15",
+            "interval": "02:00 - 02:15",
+            "positiveImbalanceVol": 23.5,
+            "negativeImbalanceVol": 15.8
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "02:00 - 02:15",
+            "predictedPriceEurMwh": 114.9,
+            "spikeProbability": 0.18
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "02:00 - 02:15",
+            "quantity": 6262.0,
+            "reservesRequiredMW": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "target": "2025-10-15T00:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2025-10-14T23:45",
+        "end": "2025-10-15T01:00"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "dataType": "DAM_PRICE",
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "00:00-00:15",
+            "priceAmount": 125.5
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "00:15-00:30",
+            "priceAmount": null
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2025-10-15",
+            "interval": "00:30-00:45",
+            "priceAmount": 125.5
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2025-10-14T23:45",
+        "end": "2025-10-15T01:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2025-10-15T00:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2025-10-15T00:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2025-10-15T00:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2025-10-14T23:45",
+        "end": "2025-10-15T01:00"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "dataType": "DAM_PRICE_PREDICTION",
+        "data": [
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "00:00-00:15",
+            "predictedPriceEurMwh": 128.25,
+            "spikeProbability": 0.25
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "00:15-00:30",
+            "predictedPriceEurMwh": 128.25,
+            "spikeProbability": 1.01
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "00:30-00:45",
+            "predictedPriceEurMwh": 128.25,
+            "spikeProbability": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2025-10-15T00:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2025-10-15T00:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2025-10-15T00:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2025-10-14T23:45",
+        "end": "2025-10-15T01:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "start": "2025-10-14T23:45",
+        "end": "2025-10-15T01:00"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "dataType": "GRID_LOAD_PREDICTION",
+        "data": [
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "00:00-00:15",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "00:15-00:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 0.0
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2025-10-15",
+            "interval": "00:30-00:45",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "start": "2025-10-14T23:45",
+        "end": "2025-10-15T01:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "start": "2025-10-14T23:45",
+        "end": "2025-10-15T01:00"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "dataType": "GRID_LOAD",
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "00:00-00:15",
+            "quantity": 6400.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "00:15-00:30",
+            "quantity": -1.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2025-10-15",
+            "interval": "00:30-00:45",
+            "quantity": 6400.0,
+            "reservesRequiredMW": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "start": "2025-10-14T23:45",
+        "end": "2025-10-15T01:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2025-10-15T00:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2025-10-15T00:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2025-10-15T00:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "start": "2025-10-14T23:45",
+        "end": "2025-10-15T01:00"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "dataType": "IMBALANCE_PRICE",
+        "data": [
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2025-10-15",
+            "interval": "00:00-00:15",
+            "positiveImbalancePrice": 150.0,
+            "negativeImbalancePrice": 175.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2025-10-15",
+            "interval": "00:15-00:30",
+            "positiveImbalancePrice": 15000.01,
+            "negativeImbalancePrice": 175.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2025-10-15",
+            "interval": "00:30-00:45",
+            "positiveImbalancePrice": 150.0,
+            "negativeImbalancePrice": 175.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2025-10-15T00:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2025-10-15T00:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2025-10-15T00:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "start": "2025-10-14T23:45",
+        "end": "2025-10-15T01:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2025-10-15T00:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2025-10-15T00:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2025-10-15T00:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "start": "2025-10-14T23:45",
+        "end": "2025-10-15T01:00"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "dataType": "IMBALANCE_VOLUME",
+        "data": [
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2025-10-15",
+            "interval": "00:00-00:15",
+            "positiveImbalanceVol": 25.5,
+            "negativeImbalanceVol": 12.25
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2025-10-15",
+            "interval": "00:15-00:30",
+            "positiveImbalanceVol": 25.5,
+            "negativeImbalanceVol": -0.01
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2025-10-15",
+            "interval": "00:30-00:45",
+            "positiveImbalanceVol": 25.5,
+            "negativeImbalanceVol": 12.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2025-10-15T00:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2025-10-15T00:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2025-10-15T00:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "start": "2025-10-14T23:45",
+        "end": "2025-10-15T01:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "target": "2025-10-15T02:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2025-10-15T02:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "target": "2025-10-15T02:00"
+      }
+    },
+    {
+      "command": "startImport",
+      "timestamp": "2026-01-01T00:00"
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T00:14",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "target": "2026-01-01T00:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T00:15",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "00:00 - 00:15",
+            "priceAmount": 92.04
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T00:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "00:15 - 00:30",
+            "priceAmount": 76.71
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T00:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "00:15 - 00:30",
+            "priceAmount": -500.01
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "00:15 - 00:30",
+            "predictedPriceEurMwh": 125.5,
+            "spikeProbability": 0.35
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "00:15 - 00:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "00:15 - 00:30",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "00:15 - 00:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": 155.5
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "00:15 - 00:30",
+            "positiveImbalanceVol": 12.5,
+            "negativeImbalanceVol": 8.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T00:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "target": "2026-01-01T00:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T00:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T00:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T00:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "target": "2026-01-01T00:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T00:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T00:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T00:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T00:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T00:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "target": "2026-01-01T00:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T00:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T00:00",
+        "end": "2026-01-01T00:45"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T00:30",
+      "parameters": {
+        "dataType": "DAM_PRICE",
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "00:15-00:30",
+            "priceAmount": 205.5
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T00:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T00:00",
+        "end": "2026-01-01T00:45"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T00:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T00:15",
+        "end": "2026-01-01T00:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T01:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T00:00",
+        "end": "2026-01-01T01:00"
+      }
+    },
+    {
+      "command": "stopImport",
+      "timestamp": "2026-01-01T01:30"
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T01:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "01:15 - 01:30",
+            "priceAmount": 36.63
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T01:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "target": "2026-01-01T01:15"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T01:30",
+      "parameters": {
+        "dataType": "DAM_PRICE",
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "00:00 - 00:15",
+            "priceAmount": 125.5
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "01:15 - 01:30",
+            "priceAmount": null
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "00:15-00:30",
+            "priceAmount": 125.5
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T01:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T00:00",
+        "end": "2026-01-01T00:30"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T01:30",
+      "parameters": {
+        "dataType": "DAM_PRICE",
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "01:15 - 01:30",
+            "priceAmount": 125.5
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T01:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "target": "2026-01-01T01:15"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T01:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "01:15 - 01:30",
+            "priceAmount": 36.63
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T01:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "target": "2026-01-01T01:15"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T01:30",
+      "parameters": {
+        "dataType": "DAM_PRICE",
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "01:15 - 01:30",
+            "priceAmount": 4000.01
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "00:00 - 00:15",
+            "priceAmount": 4000.01
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T01:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T00:00",
+        "end": "2026-01-01T01:30"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T01:30",
+      "parameters": {
+        "dataType": "DAM_PRICE",
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "00:00 - 00:15",
+            "priceAmount": 92.04
+          },
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "00:15-00:30",
+            "priceAmount": 205.5
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T01:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T00:00",
+        "end": "2026-01-01T00:30"
+      }
+    },
+    {
+      "command": "startImport",
+      "timestamp": "2026-01-01T01:30"
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T01:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "01:15 - 01:30",
+            "priceAmount": 36.63
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T01:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "target": "2026-01-01T01:15"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T01:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "01:15 - 01:30",
+            "priceAmount": 123.25
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "01:15 - 01:30",
+            "predictedPriceEurMwh": null,
+            "spikeProbability": 0.35
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "01:15 - 01:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "01:15 - 01:30",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "01:15 - 01:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": 155.5
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "01:15 - 01:30",
+            "positiveImbalanceVol": 12.5,
+            "negativeImbalanceVol": 8.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T01:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T00:30",
+        "end": "2026-01-01T01:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T01:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T01:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T01:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T01:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T01:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T01:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T02:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T01:00",
+        "end": "2026-01-01T02:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T02:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T00:30",
+        "end": "2026-01-01T02:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T02:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "02:15 - 02:30",
+            "priceAmount": 42.77
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T02:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "02:15 - 02:30",
+            "priceAmount": 123.25
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "02:15 - 02:30",
+            "predictedPriceEurMwh": 125.5,
+            "spikeProbability": 0.35
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "02:15 - 02:30",
+            "quantity": null,
+            "reservesRequiredMW": 150.5
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "02:15 - 02:30",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "02:15 - 02:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": 155.5
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "02:15 - 02:30",
+            "positiveImbalanceVol": 12.5,
+            "negativeImbalanceVol": 8.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T02:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T01:30",
+        "end": "2026-01-01T02:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T02:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T01:00",
+        "end": "2026-01-01T02:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T02:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T00:30",
+        "end": "2026-01-01T02:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T02:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T02:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T02:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "target": "2026-01-01T02:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T02:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T02:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T02:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T02:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T03:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T02:00",
+        "end": "2026-01-01T03:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T03:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T01:30",
+        "end": "2026-01-01T03:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T03:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T01:00",
+        "end": "2026-01-01T03:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T03:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "03:15 - 03:30",
+            "priceAmount": 38.41
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T03:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "03:15 - 03:30",
+            "priceAmount": 123.25
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "03:15 - 03:30",
+            "predictedPriceEurMwh": 125.5,
+            "spikeProbability": 0.35
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "03:15 - 03:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "03:15 - 03:30",
+            "quantity": null,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "03:15 - 03:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": 155.5
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "03:15 - 03:30",
+            "positiveImbalanceVol": 12.5,
+            "negativeImbalanceVol": 8.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T03:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T02:30",
+        "end": "2026-01-01T03:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T03:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T02:00",
+        "end": "2026-01-01T03:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T03:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T01:30",
+        "end": "2026-01-01T03:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T03:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T00:30",
+        "end": "2026-01-01T03:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T03:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T03:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T03:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "target": "2026-01-01T03:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T03:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T03:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T03:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T03:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T03:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T03:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T03:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "target": "2026-01-01T03:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T03:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "start": "2026-01-01T03:00",
+        "end": "2026-01-01T03:45"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T03:30",
+      "parameters": {
+        "dataType": "GRID_LOAD",
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "03:15-03:30",
+            "quantity": 6400.0,
+            "reservesRequiredMW": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T03:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "start": "2026-01-01T03:00",
+        "end": "2026-01-01T03:45"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T03:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "start": "2026-01-01T03:15",
+        "end": "2026-01-01T03:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T04:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T03:00",
+        "end": "2026-01-01T04:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T04:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T02:00",
+        "end": "2026-01-01T04:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T04:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T01:00",
+        "end": "2026-01-01T04:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T04:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "04:15 - 04:30",
+            "priceAmount": 30.26
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T04:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "04:15 - 04:30",
+            "priceAmount": 123.25
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "04:15 - 04:30",
+            "predictedPriceEurMwh": 125.5,
+            "spikeProbability": 0.35
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "04:15 - 04:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "04:15 - 04:30",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "04:15 - 04:30",
+            "positiveImbalancePrice": null,
+            "negativeImbalancePrice": 155.5
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "04:15 - 04:30",
+            "positiveImbalanceVol": 12.5,
+            "negativeImbalanceVol": 8.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T04:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T03:00",
+        "end": "2026-01-01T04:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T04:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T02:30",
+        "end": "2026-01-01T04:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T04:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T01:30",
+        "end": "2026-01-01T04:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T04:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T04:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T04:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T04:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T04:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T04:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T05:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T03:00",
+        "end": "2026-01-01T05:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T05:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T02:00",
+        "end": "2026-01-01T05:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T05:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "05:15 - 05:30",
+            "priceAmount": 61.99
+          }
+        ]
+      }
+    },
+    {
+      "command": "stopImport",
+      "timestamp": "2026-01-01T05:30"
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T05:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "05:15 - 05:30",
+            "predictedPriceEurMwh": 125.5,
+            "spikeProbability": 0.35
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T05:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T05:15"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T05:30",
+      "parameters": {
+        "dataType": "DAM_PRICE_PREDICTION",
+        "data": [
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "03:15 - 03:30",
+            "predictedPriceEurMwh": 128.25,
+            "spikeProbability": 0.25
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "05:15 - 05:30",
+            "predictedPriceEurMwh": null,
+            "spikeProbability": 0.35
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "04:15 - 04:30",
+            "predictedPriceEurMwh": 128.25,
+            "spikeProbability": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T05:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2026-01-01T03:15",
+        "end": "2026-01-01T04:30"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T05:30",
+      "parameters": {
+        "dataType": "DAM_PRICE_PREDICTION",
+        "data": [
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "05:15 - 05:30",
+            "predictedPriceEurMwh": 128.25,
+            "spikeProbability": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T05:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T05:15"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T05:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "05:15 - 05:30",
+            "predictedPriceEurMwh": 125.5,
+            "spikeProbability": 0.35
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T05:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T05:15"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T05:30",
+      "parameters": {
+        "dataType": "DAM_PRICE_PREDICTION",
+        "data": [
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "05:15 - 05:30",
+            "predictedPriceEurMwh": 128.25,
+            "spikeProbability": 1.01
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "03:15 - 03:30",
+            "predictedPriceEurMwh": 128.25,
+            "spikeProbability": 1.01
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T05:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2026-01-01T03:15",
+        "end": "2026-01-01T05:30"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T05:30",
+      "parameters": {
+        "dataType": "DAM_PRICE_PREDICTION",
+        "data": [
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "03:15 - 03:30",
+            "predictedPriceEurMwh": 125.5,
+            "spikeProbability": 0.35
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "04:15 - 04:30",
+            "predictedPriceEurMwh": 125.5,
+            "spikeProbability": 0.35
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T05:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2026-01-01T03:15",
+        "end": "2026-01-01T04:30"
+      }
+    },
+    {
+      "command": "startImport",
+      "timestamp": "2026-01-01T05:30"
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T05:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "05:15 - 05:30",
+            "priceAmount": 123.25
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "05:15 - 05:30",
+            "predictedPriceEurMwh": 125.5,
+            "spikeProbability": 0.35
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "05:15 - 05:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "05:15 - 05:30",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "05:15 - 05:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": 155.5
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "05:15 - 05:30",
+            "positiveImbalanceVol": 12.5,
+            "negativeImbalanceVol": null
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T05:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T05:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T05:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T05:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T05:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T05:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T05:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T05:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T05:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T05:00",
+        "end": "2026-01-01T05:45"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T05:30",
+      "parameters": {
+        "dataType": "DAM_PRICE",
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "05:15-05:30",
+            "priceAmount": 205.5
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T05:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T05:00",
+        "end": "2026-01-01T05:45"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T05:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T04:00",
+        "end": "2026-01-01T05:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T05:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T03:30",
+        "end": "2026-01-01T05:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T05:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T02:30",
+        "end": "2026-01-01T05:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T06:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T04:00",
+        "end": "2026-01-01T06:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T06:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T03:00",
+        "end": "2026-01-01T06:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T06:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "06:15 - 06:30",
+            "priceAmount": 80.53
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T06:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "06:15 - 06:30",
+            "priceAmount": 4000.0
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "06:15 - 06:30",
+            "predictedPriceEurMwh": 125.5,
+            "spikeProbability": 0.35
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "06:15 - 06:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "06:15 - 06:30",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "06:15 - 06:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": 155.5
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "06:15 - 06:30",
+            "positiveImbalanceVol": 12.5,
+            "negativeImbalanceVol": 8.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T06:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T05:00",
+        "end": "2026-01-01T06:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T06:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T04:30",
+        "end": "2026-01-01T06:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T06:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T03:30",
+        "end": "2026-01-01T06:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T06:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T06:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T06:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T06:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T06:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T06:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T07:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T05:00",
+        "end": "2026-01-01T07:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T07:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T04:00",
+        "end": "2026-01-01T07:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T07:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "07:15 - 07:30",
+            "priceAmount": 104.05
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T07:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "07:15 - 07:30",
+            "priceAmount": 123.25
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "07:15 - 07:30",
+            "predictedPriceEurMwh": 4000.0,
+            "spikeProbability": 1.0
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "07:15 - 07:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "07:15 - 07:30",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "07:15 - 07:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": 155.5
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "07:15 - 07:30",
+            "positiveImbalanceVol": 12.5,
+            "negativeImbalanceVol": 8.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T07:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T06:00",
+        "end": "2026-01-01T07:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T07:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T05:30",
+        "end": "2026-01-01T07:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T07:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T04:30",
+        "end": "2026-01-01T07:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T07:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T07:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T07:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T07:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T07:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T07:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T07:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T07:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T08:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T06:00",
+        "end": "2026-01-01T08:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T08:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T05:00",
+        "end": "2026-01-01T08:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T08:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "08:15 - 08:30",
+            "priceAmount": 98.95
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T08:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "08:15 - 08:30",
+            "priceAmount": 123.25
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "08:15 - 08:30",
+            "predictedPriceEurMwh": 125.5,
+            "spikeProbability": 0.35
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "08:15 - 08:30",
+            "quantity": -0.01,
+            "reservesRequiredMW": 150.5
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "08:15 - 08:30",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "08:15 - 08:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": 155.5
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "08:15 - 08:30",
+            "positiveImbalanceVol": 12.5,
+            "negativeImbalanceVol": 8.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T08:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T07:00",
+        "end": "2026-01-01T08:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T08:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T06:30",
+        "end": "2026-01-01T08:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T08:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T05:30",
+        "end": "2026-01-01T08:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T08:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T08:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T08:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "target": "2026-01-01T08:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T08:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T08:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T08:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T08:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T09:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T07:00",
+        "end": "2026-01-01T09:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T09:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T06:00",
+        "end": "2026-01-01T09:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "09:15 - 09:30",
+            "priceAmount": 95.28
+          }
+        ]
+      }
+    },
+    {
+      "command": "stopImport",
+      "timestamp": "2026-01-01T09:30"
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "09:15 - 09:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "target": "2026-01-01T09:15"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "dataType": "GRID_LOAD_PREDICTION",
+        "data": [
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "06:15 - 06:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "09:15 - 09:30",
+            "quantity": null,
+            "reservesRequiredMW": 150.5
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "07:15 - 07:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "start": "2026-01-01T06:15",
+        "end": "2026-01-01T07:30"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "dataType": "GRID_LOAD_PREDICTION",
+        "data": [
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "09:15 - 09:30",
+            "quantity": 6200.5,
+            "reservesRequiredMW": 150.5
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "target": "2026-01-01T09:15"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "09:15 - 09:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "target": "2026-01-01T09:15"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "dataType": "GRID_LOAD_PREDICTION",
+        "data": [
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "09:15 - 09:30",
+            "quantity": 6200.5,
+            "reservesRequiredMW": 0.0
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "06:15 - 06:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "start": "2026-01-01T06:15",
+        "end": "2026-01-01T09:30"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "dataType": "GRID_LOAD_PREDICTION",
+        "data": [
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "06:15 - 06:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "07:15 - 07:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "start": "2026-01-01T06:15",
+        "end": "2026-01-01T07:30"
+      }
+    },
+    {
+      "command": "startImport",
+      "timestamp": "2026-01-01T09:30"
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "09:15 - 09:30",
+            "priceAmount": 123.25
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "09:15 - 09:30",
+            "predictedPriceEurMwh": 125.5,
+            "spikeProbability": 0.35
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "09:15 - 09:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "09:15 - 09:30",
+            "quantity": -0.01,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "09:15 - 09:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": 155.5
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "09:15 - 09:30",
+            "positiveImbalanceVol": 12.5,
+            "negativeImbalanceVol": 8.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "target": "2026-01-01T09:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T08:00",
+        "end": "2026-01-01T09:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T07:30",
+        "end": "2026-01-01T09:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T06:30",
+        "end": "2026-01-01T09:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T09:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "target": "2026-01-01T09:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T09:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T09:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "target": "2026-01-01T09:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "start": "2026-01-01T09:00",
+        "end": "2026-01-01T09:45"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "dataType": "GRID_LOAD",
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "09:15-09:30",
+            "quantity": 6400.0,
+            "reservesRequiredMW": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T09:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "start": "2026-01-01T09:00",
+        "end": "2026-01-01T09:45"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T10:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T08:00",
+        "end": "2026-01-01T10:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T10:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T07:00",
+        "end": "2026-01-01T10:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T10:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "10:15 - 10:30",
+            "priceAmount": 86.1
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T10:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "10:15 - 10:30",
+            "priceAmount": 123.25
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "10:15 - 10:30",
+            "predictedPriceEurMwh": 125.5,
+            "spikeProbability": 0.35
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "10:15 - 10:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "10:15 - 10:30",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "10:15 - 10:30",
+            "positiveImbalancePrice": -15000.01,
+            "negativeImbalancePrice": 155.5
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "10:15 - 10:30",
+            "positiveImbalanceVol": 12.5,
+            "negativeImbalanceVol": 8.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T10:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T09:00",
+        "end": "2026-01-01T10:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T10:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T08:30",
+        "end": "2026-01-01T10:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T10:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T10:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T10:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T10:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T10:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T10:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T11:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T09:00",
+        "end": "2026-01-01T11:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T11:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "11:15 - 11:30",
+            "priceAmount": 85.13
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T11:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "11:15 - 11:30",
+            "priceAmount": 123.25
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "11:15 - 11:30",
+            "predictedPriceEurMwh": 125.5,
+            "spikeProbability": 0.35
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "11:15 - 11:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "11:15 - 11:30",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "11:15 - 11:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": 155.5
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "11:15 - 11:30",
+            "positiveImbalanceVol": null,
+            "negativeImbalanceVol": 8.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T11:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T11:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T11:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T11:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T11:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T11:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T11:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T11:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T11:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T11:00",
+        "end": "2026-01-01T11:45"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T11:30",
+      "parameters": {
+        "dataType": "DAM_PRICE",
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "11:15-11:30",
+            "priceAmount": 205.5
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T11:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T11:00",
+        "end": "2026-01-01T11:45"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T11:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T10:00",
+        "end": "2026-01-01T11:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T11:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T09:30",
+        "end": "2026-01-01T11:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T12:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T10:00",
+        "end": "2026-01-01T12:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T12:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "12:15 - 12:30",
+            "priceAmount": 80.41
+          }
+        ]
+      }
+    },
+    {
+      "command": "stopImport",
+      "timestamp": "2026-01-01T12:30"
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T12:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "12:15 - 12:30",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T12:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "target": "2026-01-01T12:15"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T12:30",
+      "parameters": {
+        "dataType": "GRID_LOAD",
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "10:15 - 10:30",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "12:15 - 12:30",
+            "quantity": null,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "11:15 - 11:30",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T12:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "start": "2026-01-01T10:15",
+        "end": "2026-01-01T11:30"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T12:30",
+      "parameters": {
+        "dataType": "GRID_LOAD",
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "12:15 - 12:30",
+            "quantity": 6000.25,
+            "reservesRequiredMW": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T12:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "target": "2026-01-01T12:15"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T12:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "12:15 - 12:30",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T12:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "target": "2026-01-01T12:15"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T12:30",
+      "parameters": {
+        "dataType": "GRID_LOAD",
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "12:15 - 12:30",
+            "quantity": -1.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "10:15 - 10:30",
+            "quantity": -1.0,
+            "reservesRequiredMW": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T12:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "start": "2026-01-01T10:15",
+        "end": "2026-01-01T12:30"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T12:30",
+      "parameters": {
+        "dataType": "GRID_LOAD",
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "10:15 - 10:30",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "11:15 - 11:30",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T12:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "start": "2026-01-01T10:15",
+        "end": "2026-01-01T11:30"
+      }
+    },
+    {
+      "command": "startImport",
+      "timestamp": "2026-01-01T12:30"
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T12:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "12:15 - 12:30",
+            "priceAmount": null
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "12:15 - 12:30",
+            "predictedPriceEurMwh": 125.5,
+            "spikeProbability": 0.35
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "12:15 - 12:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "12:15 - 12:30",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "12:15 - 12:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": 155.5
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "12:15 - 12:30",
+            "positiveImbalanceVol": 12.5,
+            "negativeImbalanceVol": 8.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T12:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "target": "2026-01-01T12:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T12:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "target": "2026-01-01T12:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T12:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T12:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T12:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T12:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T12:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T12:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T12:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "target": "2026-01-01T12:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T12:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T12:00",
+        "end": "2026-01-01T12:45"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T12:30",
+      "parameters": {
+        "dataType": "DAM_PRICE",
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "12:15-12:30",
+            "priceAmount": 205.5
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T12:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T12:00",
+        "end": "2026-01-01T12:45"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T12:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T11:00",
+        "end": "2026-01-01T12:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T12:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T10:30",
+        "end": "2026-01-01T12:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T13:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T11:00",
+        "end": "2026-01-01T13:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T13:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "13:15 - 13:30",
+            "priceAmount": 80.93
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T13:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "13:15 - 13:30",
+            "priceAmount": 123.25
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "13:15 - 13:30",
+            "predictedPriceEurMwh": 125.5,
+            "spikeProbability": 1.0001
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "13:15 - 13:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "13:15 - 13:30",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "13:15 - 13:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": 155.5
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "13:15 - 13:30",
+            "positiveImbalanceVol": 12.5,
+            "negativeImbalanceVol": 8.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T13:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T12:00",
+        "end": "2026-01-01T13:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T13:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T11:30",
+        "end": "2026-01-01T13:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T13:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T13:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T13:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T13:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T13:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T13:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T14:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T12:00",
+        "end": "2026-01-01T14:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T14:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "14:15 - 14:30",
+            "priceAmount": 85.47
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T14:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "14:15 - 14:30",
+            "priceAmount": 123.25
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "14:15 - 14:30",
+            "predictedPriceEurMwh": 125.5,
+            "spikeProbability": 0.35
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "14:15 - 14:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 0.0
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "14:15 - 14:30",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "14:15 - 14:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": 155.5
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "14:15 - 14:30",
+            "positiveImbalanceVol": 12.5,
+            "negativeImbalanceVol": 8.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T14:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T13:00",
+        "end": "2026-01-01T14:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T14:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T12:30",
+        "end": "2026-01-01T14:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T14:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T14:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T14:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "target": "2026-01-01T14:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T14:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T14:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T14:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T14:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T15:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T13:00",
+        "end": "2026-01-01T15:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T15:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "15:15 - 15:30",
+            "priceAmount": 98.65
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T15:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "15:15 - 15:30",
+            "priceAmount": 123.25
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "15:15 - 15:30",
+            "predictedPriceEurMwh": 125.5,
+            "spikeProbability": 0.35
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "15:15 - 15:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "15:15 - 15:30",
+            "quantity": 6000.25,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "15:15 - 15:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": 155.5
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "15:15 - 15:30",
+            "positiveImbalanceVol": 12.5,
+            "negativeImbalanceVol": 8.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T15:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T15:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T15:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T15:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T15:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T15:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T15:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T14:00",
+        "end": "2026-01-01T15:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T15:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T13:30",
+        "end": "2026-01-01T15:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T15:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T15:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T15:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T15:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T15:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T15:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T15:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T15:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T16:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T14:00",
+        "end": "2026-01-01T16:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T16:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "16:15 - 16:30",
+            "priceAmount": 120.92
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T16:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "16:15 - 16:30",
+            "priceAmount": 123.25
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "16:15 - 16:30",
+            "predictedPriceEurMwh": 125.5,
+            "spikeProbability": 0.35
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "16:15 - 16:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "16:15 - 16:30",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "16:15 - 16:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": 15000.01
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "16:15 - 16:30",
+            "positiveImbalanceVol": 12.5,
+            "negativeImbalanceVol": 8.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T16:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T15:00",
+        "end": "2026-01-01T16:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T16:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T14:30",
+        "end": "2026-01-01T16:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T16:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T16:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T16:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T16:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T16:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T16:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T17:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T15:00",
+        "end": "2026-01-01T17:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T17:15",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "17:00 - 17:15",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T17:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "17:15 - 17:30",
+            "priceAmount": 116.24
+          }
+        ]
+      }
+    },
+    {
+      "command": "stopImport",
+      "timestamp": "2026-01-01T17:30"
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T17:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "17:15 - 17:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": 155.5
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T17:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T17:15"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T17:30",
+      "parameters": {
+        "dataType": "IMBALANCE_PRICE",
+        "data": [
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "14:15 - 14:30",
+            "positiveImbalancePrice": 150.0,
+            "negativeImbalancePrice": 175.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "17:15 - 17:30",
+            "positiveImbalancePrice": null,
+            "negativeImbalancePrice": 155.5
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "15:15 - 15:30",
+            "positiveImbalancePrice": 150.0,
+            "negativeImbalancePrice": 175.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T17:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "start": "2026-01-01T14:15",
+        "end": "2026-01-01T15:30"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T17:30",
+      "parameters": {
+        "dataType": "IMBALANCE_PRICE",
+        "data": [
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "17:15 - 17:30",
+            "positiveImbalancePrice": 150.0,
+            "negativeImbalancePrice": 175.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T17:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T17:15"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T17:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "17:15 - 17:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": 155.5
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T17:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T17:15"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T17:30",
+      "parameters": {
+        "dataType": "IMBALANCE_PRICE",
+        "data": [
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "17:15 - 17:30",
+            "positiveImbalancePrice": 15000.01,
+            "negativeImbalancePrice": 175.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "14:15 - 14:30",
+            "positiveImbalancePrice": 15000.01,
+            "negativeImbalancePrice": 175.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T17:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "start": "2026-01-01T14:15",
+        "end": "2026-01-01T17:30"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T17:30",
+      "parameters": {
+        "dataType": "IMBALANCE_PRICE",
+        "data": [
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "14:15 - 14:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": 155.5
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "15:15 - 15:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": 155.5
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T17:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "start": "2026-01-01T14:15",
+        "end": "2026-01-01T15:30"
+      }
+    },
+    {
+      "command": "startImport",
+      "timestamp": "2026-01-01T17:30"
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T17:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "17:15 - 17:30",
+            "priceAmount": 123.25
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "17:15 - 17:30",
+            "predictedPriceEurMwh": 125.5,
+            "spikeProbability": 0.35
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "17:15 - 17:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "17:15 - 17:30",
+            "quantity": 16000.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "17:15 - 17:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": 155.5
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "17:15 - 17:30",
+            "positiveImbalanceVol": 100.0,
+            "negativeImbalanceVol": -0.01
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T17:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T17:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T17:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T17:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T17:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T17:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T17:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T17:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T17:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T17:00",
+        "end": "2026-01-01T17:45"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T17:30",
+      "parameters": {
+        "dataType": "DAM_PRICE",
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "17:15-17:30",
+            "priceAmount": 205.5
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T17:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T17:00",
+        "end": "2026-01-01T17:45"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T17:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T16:00",
+        "end": "2026-01-01T17:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T17:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T15:30",
+        "end": "2026-01-01T17:30"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T17:45",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "17:30 - 17:45",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T18:00",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "17:45 - 18:00",
+            "quantity": 16000.01,
+            "reservesRequiredMW": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T18:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "target": "2026-01-01T17:45"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T18:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T16:00",
+        "end": "2026-01-01T18:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T18:15",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "18:00 - 18:15",
+            "quantity": 16000.0,
+            "reservesRequiredMW": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T18:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "18:15 - 18:30",
+            "priceAmount": 121.12
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T18:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "18:15 - 18:30",
+            "priceAmount": 0.0
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "18:15 - 18:30",
+            "predictedPriceEurMwh": 125.5,
+            "spikeProbability": 0.35
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "18:15 - 18:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "18:15 - 18:30",
+            "quantity": 5999.99,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "18:15 - 18:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": 155.5
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "18:15 - 18:30",
+            "positiveImbalanceVol": 12.5,
+            "negativeImbalanceVol": 8.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T18:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T17:00",
+        "end": "2026-01-01T18:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T18:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T16:30",
+        "end": "2026-01-01T18:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T18:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T18:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T18:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "target": "2026-01-01T18:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T18:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T18:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T18:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T18:15"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T18:45",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "18:30 - 18:45",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T19:00",
+      "parameters": {
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "18:45 - 19:00",
+            "quantity": 6020.0,
+            "reservesRequiredMW": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T19:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T17:00",
+        "end": "2026-01-01T19:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T19:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "19:15 - 19:30",
+            "priceAmount": 120.11
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T19:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "19:15 - 19:30",
+            "priceAmount": 123.25
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "19:15 - 19:30",
+            "predictedPriceEurMwh": -500.01,
+            "spikeProbability": 0.35
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "19:15 - 19:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "19:15 - 19:30",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "19:15 - 19:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": 155.5
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "19:15 - 19:30",
+            "positiveImbalanceVol": 12.5,
+            "negativeImbalanceVol": 8.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T19:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T18:00",
+        "end": "2026-01-01T19:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T19:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T17:30",
+        "end": "2026-01-01T19:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T19:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T19:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T19:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T19:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T19:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T19:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T19:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T19:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T20:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T18:00",
+        "end": "2026-01-01T20:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T20:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "20:15 - 20:30",
+            "priceAmount": 116.5
+          }
+        ]
+      }
+    },
+    {
+      "command": "stopImport",
+      "timestamp": "2026-01-01T20:30"
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T20:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "20:15 - 20:30",
+            "positiveImbalanceVol": 12.5,
+            "negativeImbalanceVol": 8.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T20:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T20:15"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T20:30",
+      "parameters": {
+        "dataType": "IMBALANCE_VOLUME",
+        "data": [
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "18:15 - 18:30",
+            "positiveImbalanceVol": 25.5,
+            "negativeImbalanceVol": 12.25
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "20:15 - 20:30",
+            "positiveImbalanceVol": null,
+            "negativeImbalanceVol": 8.25
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "19:15 - 19:30",
+            "positiveImbalanceVol": 25.5,
+            "negativeImbalanceVol": 12.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T20:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "start": "2026-01-01T18:15",
+        "end": "2026-01-01T19:30"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T20:30",
+      "parameters": {
+        "dataType": "IMBALANCE_VOLUME",
+        "data": [
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "20:15 - 20:30",
+            "positiveImbalanceVol": 25.5,
+            "negativeImbalanceVol": 12.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T20:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T20:15"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T20:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "20:15 - 20:30",
+            "positiveImbalanceVol": 12.5,
+            "negativeImbalanceVol": 8.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T20:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T20:15"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T20:30",
+      "parameters": {
+        "dataType": "IMBALANCE_VOLUME",
+        "data": [
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "20:15 - 20:30",
+            "positiveImbalanceVol": 25.5,
+            "negativeImbalanceVol": -0.01
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "18:15 - 18:30",
+            "positiveImbalanceVol": 25.5,
+            "negativeImbalanceVol": -0.01
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T20:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "start": "2026-01-01T18:15",
+        "end": "2026-01-01T20:30"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T20:30",
+      "parameters": {
+        "dataType": "IMBALANCE_VOLUME",
+        "data": [
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "18:15 - 18:30",
+            "positiveImbalanceVol": 12.5,
+            "negativeImbalanceVol": 8.25
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "19:15 - 19:30",
+            "positiveImbalanceVol": 12.5,
+            "negativeImbalanceVol": 8.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T20:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "start": "2026-01-01T18:15",
+        "end": "2026-01-01T19:30"
+      }
+    },
+    {
+      "command": "startImport",
+      "timestamp": "2026-01-01T20:30"
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T20:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "20:15 - 20:30",
+            "priceAmount": 123.25
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "20:15 - 20:30",
+            "predictedPriceEurMwh": 125.5,
+            "spikeProbability": 0.35
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "20:15 - 20:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": null
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "20:15 - 20:30",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "20:15 - 20:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": 155.5
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "20:15 - 20:30",
+            "positiveImbalanceVol": 12.5,
+            "negativeImbalanceVol": 8.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T20:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T20:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T20:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T19:00",
+        "end": "2026-01-01T20:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T20:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T18:30",
+        "end": "2026-01-01T20:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T20:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T20:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T20:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "target": "2026-01-01T20:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T20:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T20:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T20:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T20:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T21:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T19:00",
+        "end": "2026-01-01T21:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T21:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "21:15 - 21:30",
+            "priceAmount": 104.06
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T21:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "21:15 - 21:30",
+            "priceAmount": 123.25
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "21:15 - 21:30",
+            "predictedPriceEurMwh": 125.5,
+            "spikeProbability": 0.35
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "21:15 - 21:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "21:15 - 21:30",
+            "quantity": null,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "21:15 - 21:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": 155.5
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "21:15 - 21:30",
+            "positiveImbalanceVol": 12.5,
+            "negativeImbalanceVol": 8.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T21:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T20:00",
+        "end": "2026-01-01T21:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T21:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T19:30",
+        "end": "2026-01-01T21:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T21:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T21:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T21:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "target": "2026-01-01T21:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T21:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T21:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T21:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T21:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T21:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "target": "2026-01-01T21:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T21:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "start": "2026-01-01T21:00",
+        "end": "2026-01-01T21:45"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T21:30",
+      "parameters": {
+        "dataType": "GRID_LOAD",
+        "data": [
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "21:15-21:30",
+            "quantity": 6400.0,
+            "reservesRequiredMW": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T21:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "start": "2026-01-01T21:00",
+        "end": "2026-01-01T21:45"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T22:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T20:00",
+        "end": "2026-01-01T22:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T22:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "22:15 - 22:30",
+            "priceAmount": 97.46
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T22:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "22:15 - 22:30",
+            "priceAmount": 123.25
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "22:15 - 22:30",
+            "predictedPriceEurMwh": 125.5,
+            "spikeProbability": 0.35
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "22:15 - 22:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "22:15 - 22:30",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "22:15 - 22:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": null
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "22:15 - 22:30",
+            "positiveImbalanceVol": 12.5,
+            "negativeImbalanceVol": 8.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T22:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T21:00",
+        "end": "2026-01-01T22:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T22:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T20:30",
+        "end": "2026-01-01T22:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T22:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T22:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T22:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T22:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T22:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T22:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T23:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T21:00",
+        "end": "2026-01-01T23:00"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T23:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "23:15 - 23:30",
+            "priceAmount": 83.59
+          }
+        ]
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-01T23:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "23:15 - 23:30",
+            "priceAmount": 123.25
+          },
+          {
+            "id": "DAM_PRICE_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "23:15 - 23:30",
+            "predictedPriceEurMwh": 125.5,
+            "spikeProbability": 0.35
+          },
+          {
+            "id": "GRID_LOAD_PREDICTION",
+            "date": "2026-01-01",
+            "interval": "23:15 - 23:30",
+            "quantity": 6200.25,
+            "reservesRequiredMW": 150.5
+          },
+          {
+            "id": "GRID_LOAD",
+            "date": "2026-01-01",
+            "interval": "23:15 - 23:30",
+            "quantity": 6000.0,
+            "reservesRequiredMW": 100.0
+          },
+          {
+            "id": "IMBALANCE_PRICE",
+            "date": "2026-01-01",
+            "interval": "23:15 - 23:30",
+            "positiveImbalancePrice": 145.25,
+            "negativeImbalancePrice": 155.5
+          },
+          {
+            "id": "IMBALANCE_VOLUME",
+            "date": "2026-01-01",
+            "interval": "23:15 - 23:30",
+            "positiveImbalanceVol": 0.01,
+            "negativeImbalanceVol": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T23:30",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T23:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T23:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "2026-01-01T23:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T23:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "2026-01-01T23:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T23:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "2026-01-01T23:15"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T23:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T23:00",
+        "end": "2026-01-01T23:45"
+      }
+    },
+    {
+      "command": "patch",
+      "timestamp": "2026-01-01T23:30",
+      "parameters": {
+        "dataType": "DAM_PRICE",
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "23:15-23:30",
+            "priceAmount": 205.5
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T23:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T23:00",
+        "end": "2026-01-01T23:45"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T23:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T22:00",
+        "end": "2026-01-01T23:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-01T23:30",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T21:30",
+        "end": "2026-01-01T23:30"
+      }
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-02T00:00",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-01",
+            "interval": "23:45 - 00:00",
+            "priceAmount": 78.97
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-02T00:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T23:00",
+        "end": "2026-01-02T00:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-02T00:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T22:30",
+        "end": "2026-01-02T00:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-02T00:00",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T22:00",
+        "end": "2026-01-02T00:00"
+      }
+    },
+    {
+      "command": "stopImport",
+      "timestamp": "2026-01-02T00:00"
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-02T00:15",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-02",
+            "interval": "00:00 - 00:15",
+            "priceAmount": 84.34
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-02T00:15",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "target": "2026-01-02T00:00"
+      }
+    },
+    {
+      "command": "startImport",
+      "timestamp": "2026-01-02T00:15"
+    },
+    {
+      "command": "import",
+      "timestamp": "2026-01-02T00:30",
+      "parameters": {
+        "data": [
+          {
+            "id": "DAM_PRICE",
+            "date": "2026-01-02",
+            "interval": "00:15 - 00:30",
+            "priceAmount": 82.79
+          }
+        ]
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-02T00:31",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "target": "LATEST"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-02T00:31",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "target": "LATEST"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-02T00:31",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "target": "LATEST"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-02T00:31",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "target": "LATEST"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-02T00:31",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "target": "LATEST"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-02T00:31",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "target": "LATEST"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-02T00:31",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "DAM_PRICE",
+        "start": "2026-01-01T00:00",
+        "end": "2026-01-02T00:00"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-02T00:31",
+      "parameters": {
+        "clientTier": "PREMIUM",
+        "dataType": "DAM_PRICE_PREDICTION",
+        "start": "2026-01-01T00:15",
+        "end": "2026-01-01T23:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-02T00:31",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD_PREDICTION",
+        "start": "2026-01-01T00:15",
+        "end": "2026-01-01T23:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-02T00:31",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "GRID_LOAD",
+        "start": "2026-01-01T00:15",
+        "end": "2026-01-01T23:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-02T00:31",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_PRICE",
+        "start": "2026-01-01T00:15",
+        "end": "2026-01-01T23:30"
+      }
+    },
+    {
+      "command": "get",
+      "timestamp": "2026-01-02T00:31",
+      "parameters": {
+        "clientTier": "FREE",
+        "dataType": "IMBALANCE_VOLUME",
+        "start": "2026-01-01T00:15",
+        "end": "2026-01-01T23:30"
+      }
+    }
+  ]
+}
