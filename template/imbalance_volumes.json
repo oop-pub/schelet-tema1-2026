@@ -3,7 +3,7 @@
   "periodStart": "yyyy-MM-ddTHH:mm",
   "periodEnd": "yyyy-MM-ddTHH:mm",
   "resolution": "PT15M",
-  "priceMeasureUnit": "MWH",
+  "quantityMeasureUnit": "MWH",
   "points": [
     {
       "intervalIndex": 1,

@@ -4,391 +4,486 @@
   "periodEnd": "yyyy-MM-ddTHH:mm",
   "resolution": "PT15M",
   "quantityMeasureUnit": "MWH",
-  "reservesRequiredMW": null,
   "points": [
     {
       "intervalIndex": 1,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 2,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 3,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 4,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 5,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 6,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 7,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 8,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 9,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 10,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 11,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 12,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 13,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 14,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 15,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 16,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 17,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 18,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 19,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 20,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 21,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 22,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 23,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 24,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 25,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 26,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 27,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 28,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 29,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 30,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 31,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 32,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 33,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 34,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 35,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 36,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 37,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 38,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 39,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 40,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 41,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 42,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 43,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 44,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 45,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 46,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 47,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 48,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 49,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 50,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 51,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 52,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 53,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 54,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 55,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 56,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 57,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 58,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 59,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 60,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 61,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 62,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 63,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 64,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 65,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 66,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 67,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 68,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 69,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 70,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 71,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 72,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 73,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 74,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 75,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 76,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 77,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 78,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 79,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 80,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 81,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 82,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 83,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 84,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 85,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 86,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 87,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 88,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 89,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 90,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 91,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 92,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 93,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 94,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 95,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     },
     {
       "intervalIndex": 96,
-      "quantity": null
+      "quantity": null,
+      "reservesRequiredMW": null
     }
   ]
 }
